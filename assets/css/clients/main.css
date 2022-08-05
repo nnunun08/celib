@@ -80,13 +80,13 @@
     height: 15px;
     margin: -2px 4px 0 0;
     vertical-align: middle;
-    background: url(/assets/images/main/checkbox.png) left top no-repeat;
+    background: url(./assets/images/main/checkbox.png) left top no-repeat;
     cursor: pointer;
     background-size: cover;
 }
 
 .person_info input[type="checkbox"]:checked + label span {
-    background: url(/assets/images/main/checkbox.png) -16px top no-repeat;
+    background: url(./assets/images/main/checkbox.png) -16px top no-repeat;
     background-size: cover;
 }
 
@@ -104,10 +104,10 @@
 }
 
 .main_visual .item_01{
-    background: url(/assets/images/main/main_visual01.jpg) center/cover no-repeat;
+    background: url(./assets/images/main/main_visual01.jpg) center/cover no-repeat;
 }
 .main_visual .item_02{
-    background: url(/assets/images/main/main_visual02.jpg) center/cover no-repeat;
+    background: url(./assets/images/main/main_visual02.jpg) center/cover no-repeat;
 }
 .main_visual h1 {
     margin-top: 0;
@@ -134,7 +134,7 @@
 }
 
 .storeListHead {
-    /* background: url(/assets/images/main/bg_storeList.png) center/cover no-repeat; */
+    /* background: url(./assets/images/main/bg_storeList.png) center/cover no-repeat; */
     padding-top: 92px;
     padding-bottom: 57px;
 }
@@ -250,7 +250,7 @@
     text-align: left;
     color: #1E1E1E;
     padding: 0 54px 0 15px;
-    background: url(/assets/images/main/storeArrow2.svg) right 10px center no-repeat;
+    background: url(./assets/images/main/storeArrow2.svg) right 10px center no-repeat;
     border: 1px solid #000;
     border-radius: 5px;
     box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.1);
@@ -452,10 +452,10 @@
         padding-top: 134px;
     }
     .main_visual .item_01 {
-        background: url(/assets/images/main/main_visual01_m.jpg) center/cover none;
+        background: url(./assets/images/main/main_visual01_m.jpg) center/cover none;
     }
     .main_visual .item_02 { 
-        background: url(/assets/images/main/main_visual02_m.jpg) center/cover none;
+        background: url(./assets/images/main/main_visual02_m.jpg) center/cover none;
     }
     .main_visual h1 {
         font-size: 36px;
@@ -570,7 +570,7 @@
         text-indent: -9999px;
         width: calc(33.3% - 25px);
         margin: 0 12.5px;
-        background: url(/assets/images/main/storeArrow.svg) center no-repeat;
+        background: url(./assets/images/main/storeArrow.svg) center no-repeat;
     }
     .whyCelib {
         background: transparent;

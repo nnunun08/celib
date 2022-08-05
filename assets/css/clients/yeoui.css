@@ -70,7 +70,7 @@
     /* 셀립 지점별 투어 신청 시작 */
 
     #yeoui .sub_yeoui {
-        background-image: url(/assets/images/sub/yeoui/s10_img.jpg);
+        background-image: url(./assets/images/sub/yeoui/s10_img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -452,7 +452,7 @@
     } */
     /* 셀립 지점별 투어 신청 시작 */
     #yeoui .sub_yeoui {
-        background-image: url(/assets/images/sub/yeoui/m_s10_img.jpg);
+        background-image: url(./assets/images/sub/yeoui/m_s10_img.jpg);
     }
 
     /* 셀립 지점별 투어 신청 끝 */

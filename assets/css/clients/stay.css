@@ -51,7 +51,7 @@ a {
 
 .sub_s1 .img_wrap {
     height: 588px;
-    background: url(/assets/images/sub/stay/s1_img.jpg) center/cover no-repeat;
+    background: url(./assets/images/sub/stay/s1_img.jpg) center/cover no-repeat;
 }
 .sub_s1 {
     margin-top: 115px;
@@ -117,7 +117,7 @@ a {
     left: 0;
     width: 17px;
     height: 17px;
-    background: url(/assets/images/sub/stay/checkBox.svg) left center no-repeat;
+    background: url(./assets/images/sub/stay/checkBox.svg) left center no-repeat;
 }
 
 
@@ -452,7 +452,7 @@ footer .ctrWrap {
     border: 0;
     outline: 0;
     text-indent: -9999px;
-    background:url(/assets/images/sub/stay/modal_close.svg) center/cover no-repeat;
+    background:url(./assets/images/sub/stay/modal_close.svg) center/cover no-repeat;
 }
 .modal .infoWrap h3 {
     font-size: 26px;
@@ -778,7 +778,7 @@ footer .ctrWrap {
         right: 18px;
         width: 15px;
         height: 15px;
-        background-image: url(/assets/images/sub/stay/m_modal_close.svg);
+        background-image: url(./assets/images/sub/stay/m_modal_close.svg);
         z-index: 1;
     }
     .modal .infoWrap h3 {

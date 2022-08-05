@@ -412,7 +412,7 @@
 
 /* sub_s10 시작 */
 #eunpyong .sub_eunpyong {
-    background-image: url(/assets/images/sub/eunpyong/s10_img.jpg);
+    background-image: url(./assets/images/sub/eunpyong/s10_img.jpg);
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -1101,7 +1101,7 @@
     /* sub_s10 시작 */
 
     #eunpyong .sub_eunpyong {
-        background-image: url(/assets/images/sub/eunpyong/m_s10_img.jpg);
+        background-image: url(./assets/images/sub/eunpyong/m_s10_img.jpg);
     }
 
     /* sub_s10 끝 */

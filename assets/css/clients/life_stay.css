@@ -1,7 +1,7 @@
 .visual {
     height: 426px;
-    background: url(/assets//images/sub/life_stay/visual_dim.png) center/cover no-repeat,
-    url(/assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
+    background: url(./assets//images/sub/life_stay/visual_dim.png) center/cover no-repeat,
+    url(./assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
     width: 100vw;
 }
 .visual .inner {
@@ -159,7 +159,7 @@
     text-align: center;
     padding: 146px 0 100px;
     margin-bottom: 170px;
-    background: url(/assets/images/sub/life_stay/bg_step.png) center/contain no-repeat;
+    background: url(./assets/images/sub/life_stay/bg_step.png) center/contain no-repeat;
 }
 
 .step .inner{
@@ -199,8 +199,8 @@
         margin-top: 60px;
         height: 208px;
         background: 
-        url(/assets/images/sub/life_stay/visual_dim_mobile.png) center/cover no-repeat,
-        url(/assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
+        url(./assets/images/sub/life_stay/visual_dim_mobile.png) center/cover no-repeat,
+        url(./assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
     }   
     .visual h1 {
         font-size: 33px;

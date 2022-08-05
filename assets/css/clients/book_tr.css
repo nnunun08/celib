@@ -65,7 +65,7 @@
 }
 .booking-wrap select {
 	width: calc(50% - 17.5px); 
-	background: #F4F4F4 url(/assets/images/sub/book_tr/apply_arrow-2.png) right 14px center/10px no-repeat; 
+	background: #F4F4F4 url(./assets/images/sub/book_tr/apply_arrow-2.png) right 14px center/10px no-repeat; 
 	font-weight: 500;
 	font-size: 12px;
 	line-height: 24px;
@@ -186,14 +186,14 @@
 }
 
 .ui-datepicker .ui-widget-header .ui-icon {
-	background: url(/assets/images/sub/book_tr/circle-chevron-left-solid.svg);
+	background: url(./assets/images/sub/book_tr/circle-chevron-left-solid.svg);
 }
 .ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
 	height: 90%; 
 	cursor: pointer;
 }
 .ui-datepicker .ui-datepicker-next .ui-icon {
-	background-image: url(/assets/images/sub/book_tr/circle-chevron-right-solid.svg);
+	background-image: url(./assets/images/sub/book_tr/circle-chevron-right-solid.svg);
 }
 /* 에약 되었습니다 모달창 */
 #modal {

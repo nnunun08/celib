@@ -105,7 +105,7 @@ html {
 .celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub::after {
     content: '';
     display: block;
-    background-image: url(/assets/images/sub/celib_story/sub_2_logo.jpg);
+    background-image: url(./assets/images/sub/celib_story/sub_2_logo.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     width: 90px;
@@ -249,7 +249,7 @@ html {
 }
 
 .celib_story_wrap .sub_s4 .s4_circle ul {
-    background-image: url(/assets/images/sub/celib_story/sub_4.jpg);
+    background-image: url(./assets/images/sub/celib_story/sub_4.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     display: flex;
@@ -455,7 +455,7 @@ html {
     }
 
     .celib_story_wrap .sub_s4 .s4_circle ul {
-        background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+        background-image: url(./assets/images/sub/celib_story/m_sub_4.jpg);
         background-position: center;
         height: 62vh;
     }
@@ -613,7 +613,7 @@ html {
     }
 
     .celib_story_wrap .sub_s4 .s4_circle ul {
-        background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+        background-image: url(./assets/images/sub/celib_story/m_sub_4.jpg);
         background-position: center;
         height: 62vh;
     }
@@ -732,7 +732,7 @@ html {
         }
     
         .celib_story_wrap .sub_s4 .s4_circle ul {
-            background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+            background-image: url(./assets/images/sub/celib_story/m_sub_4.jpg);
             background-position: center;
             height: 62vh;
         }

@@ -1,4 +1,4 @@
-@import url(/assets/css/clients/shared/plugins/bootstrap.min.css);
+@import url(./assets/css/clients/shared/plugins/bootstrap.min.css);
 
 a {
     text-decoration: none;
@@ -293,7 +293,7 @@ header .ctn {
         width: 100%;
         height: 41px;
         position: relative;
-        background: url(/assets/images/common/bg_mobileArrow.svg) right center no-repeat;
+        background: url(./assets/images/common/bg_mobileArrow.svg) right center no-repeat;
     }
     .mLink span.text {
         display: block;

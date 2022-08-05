@@ -110,7 +110,7 @@
     /* 셀립 지점별 투어 신청 시작 */
 
     #soonra .sub_soonra {
-        background-image: url(/assets/images/sub/soonra/s10_img.jpg);
+        background-image: url(./assets/images/sub/soonra/s10_img.jpg);
         background-size: cover;
         background-repeat: no-repeat;
     }
@@ -399,7 +399,7 @@
 
     /* 셀립 지점별 투어 신청 시작 */
     #soonra .sub_soonra {
-        background-image: url(/assets/images/sub/soonra/m_s10_img.jpg);
+        background-image: url(./assets/images/sub/soonra/m_s10_img.jpg);
     }
 
     /* 셀립 지점별 투어 신청 끝 */
