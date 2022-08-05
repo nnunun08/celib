@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="ko-KR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="나답게, 자유롭게, 완전하게 혼자사는 신개념 1인식 주거">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="celib life &amp; stay, 셀립 라이프 앤 스테이">
+    <meta property="og:description" content="나답게, 자유롭게, 완전하게 혼자사는 신개념 1인식 주거">
+    <meta property="og:image" content="/assets/images/main/cropped-logo.png">
+    <meta property="og:url" content="https://celib.kr">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="/assets/css/clients/jquery-ui.min.css" />
+
+    <!-- css -->
+    <link rel="stylesheet" media="all" href="/assets/css/clients/shared/bx.css">
+    <link rel="stylesheet" media="all" href="/assets/css/clients/shared/layout.css">
+    <link rel="stylesheet" media="all" href="/assets/css/clients/shared/header.css">
+    <link rel="stylesheet" media="all" href="/assets/css/clients/shared/footer.css">
+    <link rel="stylesheet" media="all" href="/assets/css/clients/main.css">
+    <link rel="stylesheet" media="all" href="/assets/css/clients/sub_common.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.css" integrity="sha512-3pIirOrwegjM6erE5gPSwkUzO+3cTjpnV9lexlNZqvupR64iZBnOOTiiLPb9M36zpMScbmUNIcHUqKD47M719g==" crossorigin="anonymous" referrerpolicy="no-referrer" />  <!-- 추가된 css 입니다. -->
+    <link rel="stylesheet" media="all" href="/assets/css/clients/book_tr.css">
+
+    <!--favicon start!!-->
+    <link rel="icon" href="/assets/images/main/cropped-favico-2-32x32.png" sizes="32x32">
+    <link rel="icon" href="/assets/images/main/cropped-favico-2-192x192.png" sizes="192x192">
+    <!--favicon end..-->
+
+    <!--font start!! -->
+    <link rel='stylesheet' type='text/css' href='//cdn.jsdelivr.net/npm/font-kopub@1.0/kopubdotum.min.css'>
+    <link rel="stylesheet" href="https://use.typekit.net/tny8wlt.css">
+    <!--font end.. -->
+
+    <!--effect jqeury end..-->
+    <script src="/assets/js/jquery-3.3.1.min.js"></script>
+    <script src="/assets/js/jquery-ui.min.js"></script>
+    <script src="/assets/js/main.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js" integrity="sha512-VEd+nq25CkR676O+pLBnDW09R7VQX9Mdiij052gVCp5yVH3jGtH70Ho/UUv4mJDsEdTvqRCFZg0NKGiojGnUCw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+    <title>celib life &amp; stay, 셀립 라이프 앤 스테이</title>
+</head>
+
+<body>
+    <div data-include-path="header.html"></div><!-- 해더 import -->
+    <div id = "book_tr-page">
+        <section class="celib_tour_booking">
+            <div class="sub_s1">
+                <div class="ctnWrap">
+                    <div class="booking">
+                        <p class="title kr700g">셀립 방문상담 예약</p>
+                        <div id="modal">
+                            <div class="modal-contents">
+                                <p>예약이 완료되었습니다.</p>
+                                <a href="https://celib.kr/">닫기</a>
+                            </div>
+                        </div>
+                        <div class="book_loading">
+                            <div class="loading-contents">
+                                <img src="/assets/images/sub/book_tr/calender.png" alt="">
+                                <p>예약 가능한 시간을 조회중입니다.</p>
+                            </div>
+                        </div>
+                        <div>
+                            <div class="booking-wrap">
+                                <div>
+                                    <div class="left-area">
+                                        <dl class="area">
+                                            <dt class="kr700g">예약지점</dt>
+                                            <dd>
+                                                <select name="setBookingPlace" id="select_unit_id" class="ipt">
+                                                </select>
+                                            </dd>
+                                        </dl>
+                                        <dl>
+                                            <dt class="kr700g">예약 날짜 선택</dt>
+                                            <dd><div id="setBookingDate"></div></dd>
+                                        </dl>
+                                        <dl id="setBookingTime">
+                                        </dl>
+                                    </div>
+                                </div>
+                                <div class="right-area">
+                                    <dl class="area">
+                                        <dt class="kr700g">예약자 정보</dt>
+                                        <dd>
+                                            <input type="text" id="clientName" class="ipt" placeholder="이름: 필수">
+                                            <input type="text" id="clientPhone" class="ipt" placeholder="휴대폰 번호: 필수">
+                                            <input type="text" id="clientEmail" class="ipt" placeholder="이메일: 필수">
+                                        </dd>
+                                    </dl>
+                                    <div class="booking-result">
+                                        <p class="title kr700g">예약 내용</p>
+                                        <div class="dscpt kr700g"><span id="booking-place"></span> 방문상담</br><span id="booking-date"></span> <span id="booking-time"></span></div>
+                                        
+                                        <div class="person_info">
+                                            <h2 class="kr300g">개인정보 이용동의</h2>
+                                            <div class="accordion">
+                                                <div class="accordion_head">
+                                                    <input type="checkbox" id="apply_all" name="apply_all">
+                                                    <label for="apply_all" class="kr700g"> <span></span> 모두 동의합니다. (필수)</label>
+                                                    <div class="arrow"></div>
+                                                </div>
+                                                <h2 class="apply_privacy accordion_body kr300g">
+                                                    <input type="checkbox" class="apply_chk" id="apply_chk1" name="chk">
+                                                    <label for="apply_chk1"> <span></span> SimplyBook.me 시스템 이용약관(필수)<a class="privacy" id="privacy" href="javascript:void(0);">약관보기</a></label>
+                                                    <input type="checkbox" class="apply_chk" id="apply_chk2" name="chk">
+                                                    <label for="apply_chk2"> <span></span> 개인정보의 제3자 제공 동의(필수)<a class="terms" id="terms" href="javascript:void(0);">약관보기</a></label>
+                                                </h2>
+                                            </div>
+                                        </div>
+                                        
+                                        <a href="javascript:void(0)" id="bookingSubmit">예약하기</a>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div data-include-path="footer.html"></div> <!-- 푸터 가져오는 곳 -->
+
+</body></html>

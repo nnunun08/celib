@@ -1,0 +1,328 @@
+.visual {
+    height: 426px;
+    background: url(/assets//images/sub/life_stay/visual_dim.png) center/cover no-repeat,
+    url(/assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
+    width: 100vw;
+}
+.visual .inner {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.visual h1 {
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 1;
+    margin: 0;
+    margin-bottom: 5px;
+    color: #fff;
+}
+.visual span {
+    font-size: 20px;
+    font-weight: 300;
+    line-height: 153.5%;
+    margin: 0;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.infoText {
+    padding-top: 63px;
+    padding-bottom: 100px;
+}
+.infoText h1 {
+    font-size: 24px;
+    font-weight: bold;
+    color: #1e1e1e;
+}
+.locations {
+    padding-bottom: 200px;
+}
+.locations h2 {
+    font-size: 36px;
+    font-weight: 300;
+    color: #1e1e1e;
+    margin: 0;
+    margin-bottom: 46px;
+}
+.locations ul {
+    padding: 0;
+}
+.locations li {
+    width: calc((100% - 120px)/4);
+    margin-right: 40px;
+    border-top-right-radius: 102px;
+    overflow: hidden;
+    background: #F9F9F9;
+    box-shadow: 0px 2.94493px 11.0435px rgba(0, 0, 0, 0.25);
+    margin-bottom: 36px;
+}
+.locations li:nth-child(4n) {
+    margin-right: 0;
+}
+.locations li .img-div {
+    padding-top: 94%;
+    position: relative;
+}
+
+.locations .img-div .badge {
+    position: absolute;
+    bottom: 13px;
+    left: 12px;
+    border-radius: 3px;
+    color: #0A0A0A;
+    padding: 0 5px;
+    height: 22px;
+    line-height: 22px;
+    font-weight: 300;
+    font-size: 16px;
+    color: #000;
+}
+.locations .img-div .badge-life {
+    background: #E9C649;
+}
+.locations .img-div .badge-stay {
+    background: #97CAC7;
+}
+.locations p {
+    padding: 18px 15px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 153.5%;
+    color: #1E1E1E;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+.life {
+    margin-bottom: 140px;
+}
+.stay {
+    margin-bottom: 205px;
+}
+.stay .inner,
+.life .inner {
+    /* overflow-x: hidden; */
+    /* max-width: 1350px; */
+    color: #1e1e1e;
+}
+.life .inner {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 620px;
+}
+.stay .inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 784px;
+}
+.life img {
+    /* width: 64%; */
+    width: 50%;
+    max-width: 800px;
+    flex: 1 0 auto;
+    margin-left: -57px;
+}
+.stay img {
+    /* width: 64%; */
+    width: 50%;
+    max-width: 784px;
+    flex: 1 0 auto;
+    margin-right: -106px;
+}
+.life .text {
+    flex: 0 0 auto;
+    margin-left: 65px;
+}
+.stay .text {
+    /* margin-right: 80px; */
+    /* margin-left: 85px; */
+}
+.stay .text h3,
+.life .text h3 {
+    font-size: 60px;
+    font-weight: 300;
+    margin-bottom: 24px;
+}
+.stay .text p,
+.life .text p {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 153.5%;
+}
+
+.step {
+    text-align: center;
+    padding: 146px 0 100px;
+    margin-bottom: 170px;
+    background: url(/assets/images/sub/life_stay/bg_step.png) center/contain no-repeat;
+}
+
+.step .inner{
+    max-width: 660px;
+}
+.step h3 {
+    font-size: 30px;
+    font-weight: 500;
+    color: #171717;
+    margin: 0;
+    margin-bottom: 83px;
+}
+.step ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    padding: 0;
+}
+.step h4 {
+    font-size: 30px;
+    font-weight: 300;
+    color: #171717;
+    margin-bottom: 43px;
+}
+.step p {
+    font-size: 17px;
+    font-weight: 500;
+    line-height: 133%;
+    color: #171717;
+    letter-spacing: -0.02em;
+}
+
+
+
+@media all and (max-width:768px) {
+    .visual {
+        margin-top: 60px;
+        height: 208px;
+        background: 
+        url(/assets/images/sub/life_stay/visual_dim_mobile.png) center/cover no-repeat,
+        url(/assets/images/sub/life_stay/visual.jpg) center/cover no-repeat;
+    }   
+    .visual h1 {
+        font-size: 33px;
+        line-height: 1;
+        margin-bottom: 3px;
+    }
+    .visual span {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+
+    .infoText {
+        display: none;
+    }
+    .locations {
+        padding-top: 32px;
+        padding-bottom: 53px;
+    }
+    .locations h2 {
+        font-size: 16px;
+        margin-bottom: 34px;
+    }
+    .locations ul {
+        margin-left: -3px;
+        margin-right: -3px;
+    }
+    .locations li {
+        width: calc((100% - 25px)/2);
+        margin-right: 25px;
+        border-top-right-radius: 64px;
+        margin-bottom: 22px;
+    }
+    .locations li:nth-child(2n) {
+        margin-right: 0;
+    }
+    .locations .img-div .badge {
+        left: 6px;
+        bottom: 7px;
+        font-size: 10px;
+        height: 14px;
+        line-height: 14px;
+        border-radius: 2px;
+    }
+    .locations p {
+        font-size: 12px;
+        padding: 12px 10px;
+    }
+    .life {
+        overflow: hidden;
+        margin-bottom: 53px;
+    }
+    .stay {
+        margin-bottom: 114px;
+    }
+    .life .inner {
+        height: auto;
+        flex-direction: column;
+        align-items: stretch;
+    }
+    .life img {
+        max-width: 500px;
+        width: 91.7%;
+        align-self: flex-end;
+        margin-right: -20px;
+    }
+    .life .text {
+        margin-top: -50px;
+        margin-left: 0;
+    }
+    .stay .text {
+        margin-top: -70px;
+        text-align: right;
+        margin-right: 0;
+        align-self: flex-end;
+    }
+    .stay .text h3,
+    .life .text h3 {
+        margin-top: 0;
+        font-size: 38px;
+        margin-bottom: 34px;
+    }
+    .stay .text p, 
+    .life .text p {
+        font-size: 13px;
+    }
+    .stay .inner {
+        height: auto;
+        flex-direction: column-reverse;
+    }
+    .stay img {
+        align-self: flex-start;
+        width: 83.9%;
+        max-width: 500px;
+        margin-left: -20px;
+    }
+
+    .step {
+        padding: 80px 0 134px;
+        margin-bottom: 0;
+        background-size: 80%;
+        background-position: center 80px;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+    .step h3 {
+        font-size: 14px;
+        margin-bottom: 0;
+        margin-top: 66px;
+    }
+    .step ul {
+        flex-direction: column;
+        align-items: center;
+        margin: 0;
+    }
+    .step h4 {
+        font-size: 14px;
+        margin: 0;
+        margin-bottom: 8px;
+        margin-top: 37px;
+    }
+    .step p {
+        margin: 0;
+        font-size: 12px;
+    }
+}

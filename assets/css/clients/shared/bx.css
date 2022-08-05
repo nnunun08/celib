@@ -1,0 +1,138 @@
+/* 폰트, 주조색과 보조색을 관리하는 스타일 시트 */
+
+/* 변수 사용 법. 예) 자세히 보려면 펼침 버튼을 눌러주세요 >
+
+:root {
+    --main_clr: #F4F4F2;
+    --sub_clr: #FFF;
+    --accnt_clr: #1C1C1C;
+  }
+
+< 위와 같은 문법으로 변수를 선언하고,
+아래와 같이 스타일로 적용하면 됩니다. >
+
+body { background-color: var(--main_clr); }
+h2 { border-bottom: 2px solid var(--sub_clr); }
+.container {color: var(--accnt_clr);}
+*/
+
+/* color variable start!! 컬러 변수 선언문 시작 */
+:root {
+    --main_clr: #F4F4F2;
+    --sub_clr: #FFF; /* 서브컬러 추가시 변경해서 사용하세용~ */
+    --accnt_clr: #1C1C1C;
+    
+    --gry: #3c3c3c;
+    --wh:#fff;
+  }
+/* color variable end... 컬러 변수 선언문 끝 */
+
+
+/* font variable start!! 폰트 변수 선언문 시작 */
+:root {
+  --en_font: 'europa', 'sans-serif';
+  --kr_font: 'KoPubDotum', 'KoPub Dotum', 'sans-serif';
+}
+/* font variable end... 폰트 변수 선언문 끝 */
+
+/* 스와이프 슬라이드 dot 색 지정 변경 선언문 시작*/
+:root {
+  --swiper-theme-color: var(--gry);
+}
+/* 스와이프 슬라이드 dot 색 지정 변경 선언문 끝*/
+
+
+/* font-style variable start!! 폰트 스타일 적용 */
+/* black color #3c3c3c*/
+.en300g{font-family: var(--en_font); color:var(--gry); font-weight:300; color: #3c3c3c;}
+.en400g{font-family: var(--en_font); color:var(--gry); font-weight:400; color: #3c3c3c;}
+.en700g{font-family: var(--en_font); color:var(--gry); font-weight:700; color: #3c3c3c;}
+
+.kr100g{font-family: var(--kr_font); color:var(--gry); font-weight:100; color: #3c3c3c;}
+.kr300g{font-family: var(--kr_font); color:var(--gry); font-weight:300; color: #3c3c3c;}
+.kr400g{font-family: var(--kr_font); color:var(--gry); font-weight:400; color: #3c3c3c;}
+.kr500g{font-family: var(--kr_font); color:var(--gry); font-weight:500; color: #3c3c3c;}
+.kr700g{font-family: var(--kr_font); color:var(--gry); font-weight:700; color: #3c3c3c;}
+
+
+/* white color #fff*/
+.en300wh{font-family: var(--en_font); color:var(--wh); font-weight:300; color: #ffffff;}
+.en400wh{font-family: var(--en_font); color:var(--wh); font-weight:400; color: #ffffff;}
+.en700wh{font-family: var(--en_font); color:var(--wh); font-weight:700; color: #ffffff;}
+
+.kr100wh{font-family: var(--kr_font); color:var(--wh); font-weight:100; color: #ffffff;}
+.kr300wh{font-family: var(--kr_font); color:var(--wh); font-weight:300; color: #ffffff;}
+.kr400wh{font-family: var(--kr_font); color:var(--wh); font-weight:400; color: #ffffff;}
+.kr500wh{font-family: var(--kr_font); color:var(--wh); font-weight:500; color: #ffffff;}
+.kr700wh{font-family: var(--kr_font); color:var(--wh); font-weight:700; color: #ffffff;}
+/* font-style variable start!! 폰트 스타일 적용 */
+
+
+
+/* common button type start!! 공통 버튼 타입 스타일 시작 */
+    .strkBtn {
+      border: 1px solid var(--sub_clr);
+      border: 1px solid #fff;
+      color:var(--wh);
+      color:#fff;
+      box-sizing: border-box;
+      text-align: center;
+    }
+    .fillBtn {
+      border: 1px solid var(--accnt_clr);
+      border: 1px solid #1c1c1c;
+      background: var(--accnt_clr);
+      background: #1c1c1c;
+      color:var(--wh);
+      color:#fff;
+      box-sizing: border-box;
+      text-align: center;
+    }
+
+
+
+  .strkBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+  .fillBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+
+@media (max-width: 1024px) {
+  .strkBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+  .fillBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+}/*@media (max-width: 767px)*/
+
+@media (max-width: 768px) {
+  .strkBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+  .fillBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+}/*@media (max-width: 639px)*/
+
+
+@media (max-width: 320px) {
+  .strkBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+  .fillBtn {
+    font-size: 17px;
+    border-radius:4px;
+  }
+}/*@media (max-width: 639px)*/
+
+/* common button type end.. 공통 버튼 타입 스타일 끝 */
+

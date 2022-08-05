@@ -1,0 +1,769 @@
+/*@media (max-width: 1920px) 컴퓨터 화면 시작*/
+html {
+    font-size: 16px;
+}
+
+/* 셀립 스토리 설명1 끝 */
+.celib_story_wrap .sub_s1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 300px;
+    height: auto;
+}
+
+.celib_story_wrap .sub_s1 img {
+    width: 140px;
+    margin: 0 auto;
+}
+
+.celib_story_wrap .sub_s1 p {
+    width: 100%;
+    font-size: 20px;
+    margin: 20px 0 60px 0;
+}
+
+.celib_story_wrap .sub_s1 p span {
+    font-weight: bold;
+}
+
+.celib_story_wrap .sub_s1 h6 {
+    font-size: 20px;
+    width: 100%;
+    margin: 0;
+    line-height: 35px;
+    margin: 40px 0;
+}
+
+.celib_story_wrap .sub_s1 h1 {
+    width: 100%;
+    font-size: 22px;
+}
+
+.celib_story_wrap .sub_s1 img:last-child {
+    width: 220px;
+}
+
+.celib_story_wrap .sub_s1 .s1_text1 {
+    font-size: 18px;
+    margin: 30px 0 120px 0;
+}
+
+/* 셀립 스토리 설명1 끝 */
+
+
+
+/* 셀립 스토리 설명2 시작 */
+.celib_story_wrap .sub_s2 {
+    width: 100%;
+    display: block;
+    height: auto;
+}
+
+.celib_story_wrap .sub_s2 .ctnWrap div:first-child {
+    max-width: 950px;
+    width: 100%;
+    text-align: center;
+}
+
+.celib_story_wrap .sub_s2 img {
+    width: 100%;
+    margin-bottom: 60px;
+}
+
+.celib_story_wrap .sub_s2 .sub_s2_text {
+    width: 100%;
+    padding: 0 85px;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+
+.celib_story_wrap .sub_s2 .sub_s2_text p {
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 300;
+    width: 100%;
+}
+
+.celib_story_wrap .sub_s2 h6 {
+    font-size: 20px;
+    width: 100%;
+    line-height: 35px;
+    text-align: center;
+}
+
+.celib_story_wrap .sub_s2 .sub_s2_text p span {
+    font-weight: bold;
+}
+
+.celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub::after {
+    content: '';
+    display: block;
+    background-image: url(/assets/images/sub/celib_story/sub_2_logo.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 90px;
+    height: 37px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+
+}
+
+/* 셀립 스토리 설명2 끝 */
+
+/* 셀립 그리는 미래에 함께 시작 */
+.celib_story_wrap .sub_s3 {
+    margin: 120px 0;
+    padding: 0;
+    background: #ffffff;
+    height: auto;
+}
+
+.celib_story_wrap .sub_s3 .ctnWrap {
+    display: block;
+}
+
+.celib_story_wrap .sub_s3 ul {
+    padding: 0;
+}
+
+.celib_story_wrap .sub_s3 ul li {
+    font-size: 21px;
+}
+
+/*셀립 채용 화살표 시작*/
+
+.celib_story_wrap .sub_s3 ul li:after {
+    content: '';
+    display: block;
+    border-bottom: 1px solid #000;
+    margin: 25px 0;
+}
+
+.celib_story_wrap .sub_s3 ul .s3_ment a,
+.celib_story_wrap .sub_s3 ul .s3_ment div {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    color: #000000;
+}
+
+.celib_story_wrap .sub_s3 ul .s3_ment a p,
+.celib_story_wrap .sub_s3 ul .s3_ment div p {
+    margin: 0;
+}
+
+
+.celib_story_wrap .sub_s3 .s3_ment .arrow {
+    position: relative;
+    height: 1.2vh;
+    width: 1vw;
+    cursor: pointer;
+}
+
+
+.celib_story_wrap .sub_s3 .s3_ment .arrow::before,
+.celib_story_wrap .sub_s3 .s3_ment .arrow::after {
+    content: "";
+    position: absolute;
+    width: 2px;
+    border-radius: 5rem;
+    height: 100%;
+    transition: all 0.5s;
+}
+
+.celib_story_wrap .sub_s3 .s3_ment .arrow::before {
+    left: -3px;
+    top: 4px;
+    transform: rotate(-45deg);
+    background-color: #666;
+
+}
+
+.celib_story_wrap .sub_s3 .s3_ment .arrow::after {
+    left: -3px;
+    top: 12px;
+    transform: rotate(45deg);
+    background-color: #666;
+}
+
+/*셀립 채용 화살표 끝*/
+
+.celib_story_wrap .sub_s3 .s3_ment span {
+    font-family: 'europa', sans-serif;
+}
+
+
+/* 셀립 그리는 미래에 함께 끝 */
+
+/* 셀립 원형 디자인 시작 */
+
+.celib_story_wrap .sub_s4 {
+    text-align: center;
+    background: #ffffff;
+    height: auto;
+    padding: 0;
+}
+
+.celib_story_wrap .sub_s4 .ctnWrap {
+    display: block;
+}
+
+.celib_story_wrap .sub_s4 .s4_text h3 {
+    font-size: 80px;
+    font-family: 'europa', sans-serif;
+    font-weight: 200;
+    margin: 0;
+    color: #342B2B;
+}
+
+.celib_story_wrap .sub_s4 .s4_text h4 {
+    font-size: 20px;
+    font-family: 'europa', sans-serif;
+    font-weight: 300;
+    margin: 0;
+    color: #7B7B7B;
+}
+
+.celib_story_wrap .sub_s4 .s4_text p {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.celib_story_wrap .sub_s4 .s4_text p span {
+    font-family: 'europa', sans-serif;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle {
+    width: 80%;
+    margin: 80px auto;
+    display: block;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul {
+    background-image: url(/assets/images/sub/celib_story/sub_4.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0;
+    max-width: 750px;
+    width: 100%;
+    height: 280px;
+    margin: auto;
+    align-content: center;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li {
+    width: 33%;
+    height: 33%;
+    display: table;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li div {
+    display: table-cell;
+    vertical-align: middle;
+}
+.celib_story_wrap .sub_s4 .s4_circle ul li:first-child {
+    padding-left: 12px;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li:last-child {
+    padding-right: 12px;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li h3 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-top: 0;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 400;
+}
+
+/* 셀립 원형 디자인 끝 */
+
+/*@media (max-width: 1920px) 컴퓨터 화면 끝*/
+
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+@media screen and (min-width:769px) and (max-width:1099px) {
+
+    /* 셀립 스토리 설명1 시작 */
+    .celib_story_wrap .sub_s1 p {
+        font-size: 1.2rem
+    }
+
+    .celib_story_wrap .sub_s1 h1 {
+        font-size: 1.4rem;
+    }
+
+    .celib_story_wrap .sub_s1 h6 {
+        font-size: 1.2rem;
+        margin: 6vh 0;
+    }
+
+    .celib_story_wrap .sub_s1 .s1_text1 {
+        font-size: 1.1rem;
+    }
+
+    /* 셀립 스토리 설명1 끝 */
+
+    /* 셀립 스토리 설명2 끝 */
+    .celib_story_wrap .sub_s2 .sub_s2_text p {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: -1px;
+    }
+
+    .celib_story_wrap .sub_s2 .sub_s2_text img {
+        margin: 9vh 0 0 0;
+    }
+
+    .celib_story_wrap .sub_s2 h6 {
+        font-size: 1.2rem;
+    }
+
+    .celib_story_wrap .sub_s2 .sub_s2_text {
+        padding: 0;
+    }
+
+    /* 셀립 스토리 설명2 끝 */
+
+    /* 셀립 그리는 미래에 함께 시작 */
+    .celib_story_wrap .sub_s3 ul li {
+        font-size: 1.3rem;
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::after {
+        left: -10px;
+
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::before {
+        left: -10px;
+        top: 5px;
+    }
+
+    /* 셀립 그리는 미래에 함께 끝 */
+
+    /* 셀립 원형 디자인 시작 */
+    .celib_story_wrap .sub_s4 .s4_circle {
+        width: 100%;
+    }
+    .celib_story_wrap .sub_s4 .s4_circle ul li h3 {
+        font-size: 1.5rem;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul {
+        height: 34vh;
+    }
+
+    /* 셀립 원형 디자인 끝 */
+}
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+
+
+/*@media (min-width: 536px)~(max-width: 768px) → 아이패드 사이즈  시작*/
+@media screen and (min-width:536px) and (max-width:768px) {
+
+    /* 셀립 스토리 설명1 시작 */
+    .celib_story_wrap .sub_s1 {
+        margin-top: 30vh;
+    }
+
+    .celib_story_wrap .sub_s1 p {
+        font-size: 1rem
+    }
+
+    .celib_story_wrap .sub_s1 h1 {
+        font-size: 1.2rem;
+    }
+
+    .celib_story_wrap .sub_s1 h6 {
+        font-size: 0.8rem;
+        margin: 4vh 0;
+    }
+
+    .celib_story_wrap .sub_s1 .s1_text1 {
+        font-size: 0.9rem;
+    }
+
+    /* 셀립 스토리 설명1 끝 */
+
+    /* 셀립 스토리 설명2 시작 */
+    .celib_story_wrap .sub_s2 .sub_s2_text p {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        /*        letter-spacing: -1px;*/
+    }
+
+
+    .celib_story_wrap .sub_s2 .sub_s2_text {
+        padding: 0;
+    }
+
+    /* 셀립 스토리 설명2 끝 */
+
+    /* 셀립 그리는 미래에 함께 시작 */
+
+    .celib_story_wrap .sub_s3 ul li {
+        font-size: 1.3rem;
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::after {
+        left: -10px;
+
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::before {
+        left: -10px;
+        top: 5px;
+    }
+
+    /* 셀립 그리는 미래에 함께 끝 */
+
+    /* 셀립 원형 디자인 시작 */
+    .celib_story_wrap .sub_s4 .s4_circle ul li h3 {
+        font-size: 1.5rem;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+        font-size: 0.8rem;
+        line-height: 1.5;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul {
+        background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+        background-position: center;
+        height: 62vh;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li {
+        width: 100%;
+        height: 33%;
+        display: table;
+        margin: 0;
+    }
+    
+.celib_story_wrap .sub_s4 .s4_circle ul li:first-child {
+    padding-left: 0;
+}
+
+.celib_story_wrap .sub_s4 .s4_circle ul li:last-child {
+    padding-right: 0;
+}
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+
+
+    /* 셀립 원형 디자인 끝 */
+
+}
+
+/*@media (min-width: 536px)~(max-width: 768px) → 아이패드 사이즈  끝*/
+
+
+/*@media (max-width: 535px) → 모바일 사이즈 시작*/
+@media screen and (min-width:300px) and (max-width: 535px) {
+
+    /* 셀립 스토리 설명1 시작 */
+    .celib_story_wrap .sub_s1 img {}
+
+    .celib_story_wrap .sub_s1 {
+        margin-top: 20vh;
+    }
+
+    .celib_story_wrap .sub_s1 p {
+        font-size: 1rem;
+        margin: 2vh 0 6vh 0;
+    }
+
+    .celib_story_wrap .sub_s1 h1 {
+        font-size: 1rem;
+    }
+
+    .celib_story_wrap .sub_s1 h6 {
+        font-size: 0.8rem;
+        margin: 2vh 0;
+        line-height: 1.5;
+    }
+
+    .celib_story_wrap .sub_s1 .s1_text1 {
+        font-size: 0.9rem;
+    }
+
+    /* 셀립 스토리 설명1 끝 */
+
+    /* 셀립 스토리 설명2 시작 */
+    .celib_story_wrap .sub_s2 .sub_s2_text {
+        flex-wrap: wrap;
+    }
+
+    .celib_story_wrap .sub_s2 .sub_s2_text p {
+        font-size: 0.9rem;
+        line-height: 1.6;
+        width: 100%;
+    }
+
+    .celib_story_wrap .sub_s2 h6 {
+        font-size: 0.8rem;
+        margin: 2vh 0;
+        line-height: 1.5;
+    }
+    
+    .celib_story_wrap .sub_s2 img {
+        margin-bottom: 1vh;
+    }
+    
+    .celib_story_wrap .sub_s2 .sub_s2_text .mobile_img {
+        width: 100%;
+        margin-bottom: 3vh;
+    }
+
+    .celib_story_wrap .sub_s2 .sub_s2_text {
+        padding: 0;
+    }
+
+    /* 셀립 스토리 설명2 끝 */
+
+    .celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub {
+        margin: 2vh 0;
+        font-size: 0.9rem;
+    }
+
+    .celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub::after {
+        bottom: -12vh;
+    }
+
+    /* 셀립 스토리 설명2 끝 */
+
+    /* 셀립 그리는 미래에 함께 시작 */
+    .celib_story_wrap .sub_s3 {
+        margin: 20vh 0 13vh 0;
+        padding: 0;
+    }
+
+    .celib_story_wrap .sub_s3 ul li {
+        font-size: 1.2rem;
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::after {
+        top: 11px;
+    }
+
+    .celib_story_wrap .sub_s3 .s3_ment .arrow::before {
+        top: 5px;
+    }
+
+    /* 셀립 그리는 미래에 함께 시작 */
+
+    /* 셀립 원형 디자인 시작 */
+    .celib_story_wrap .sub_s4 {
+        padding: 0;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_text h3 {
+        font-size: 4rem;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_text h4 {
+        font-size: 1.2rem;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_text p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li h3 {
+        font-size: 1.2rem;
+        margin-bottom: 1.5vh;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul {
+        background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+        background-position: center;
+        height: 62vh;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li {
+        width: 100%;
+        height: 33%;
+        display: table;
+        margin: 0;
+    }
+    
+    .celib_story_wrap .sub_s4 .s4_circle ul li:first-child {
+        padding-left: 0;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li:last-child {
+        padding-right: 0;
+    }
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li div {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+
+    .celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+        font-size: 0.8rem;
+        line-height: 1.5;
+        margin: 0;
+    }
+}
+
+    /* 셀립 원형 디자인 끝 */
+
+    /*@media (max-width: 535px) → 모바일 사이즈 끝*/
+
+    /*@media (max-width: 375px) → 모바일 사이즈 시작*/
+    @media (max-width:375px) {
+
+        /* 셀립 스토리 설명1 시작 */
+        .celib_story_wrap .sub_s1 p {
+            font-size: 0.8rem;
+        }
+
+        .celib_story_wrap .sub_s1 h1 {
+            font-size: 0.8rem;
+        }
+
+        /* 셀립 스토리 설명1 끝 */
+
+        /* 셀립 스토리 설명2 시작 */
+        .celib_story_wrap .sub_s2 .sub_s2_text p,
+        .celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub {
+            font-size: 0.75rem;
+        }
+
+        /* 셀립 스토리 설명2 끝 */
+
+        /* 셀립 그리는 미래에 함께 끝 */
+        .celib_story_wrap .sub_s3 ul li {
+            font-size: 0.9rem;
+        }
+
+        .celib_story_wrap .sub_s3 ul li:after {
+            margin: 2.5vh 0;
+        }
+
+        /* 셀립 그리는 미래에 함께 끝 */
+    }
+ 
+    /*@media (max-width: 375px) → 모바일 사이즈 끝*/
+
+    /*@media (max-width: 320px) → 모바일 사이즈 끝*/
+    @media (max-width:320px) {}
+    @media (max-width:280px) {
+        .celib_story_wrap .sub_s1 {
+            margin-top: 160px;
+        }
+        .celib_story_wrap .sub_s1 p {
+            font-size: 0.8rem;
+        }
+        .celib_story_wrap .sub_s1 .s1_text1 {
+            font-size: 0.9rem;
+        }
+        .celib_story_wrap .sub_s2 .sub_s2_text {
+            padding: 10px;
+            display: block;
+        }
+        .celib_story_wrap .sub_s2 .sub_s2_text p {
+            font-size: 0.6rem;
+            line-height: 1.4rem;
+        }
+        .celib_story_wrap .sub_s2 .sub_s2_text .sub_s2_sub::after {
+            bottom: -50px;
+        }
+        .celib_story_wrap .sub_s4 {
+            padding: 0;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_text h3 {
+            font-size: 4rem;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_text h4 {
+            font-size: 1.2rem;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_text p {
+            font-size: 0.8rem;
+            line-height: 1.6;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul li h3 {
+            font-size: 1.2rem;
+            margin-bottom: 1.5vh;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul {
+            background-image: url(/assets/images/sub/celib_story/m_sub_4.jpg);
+            background-position: center;
+            height: 62vh;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul li {
+            width: 100%;
+            height: 33%;
+            display: table;
+            margin: 0;
+        }
+        
+        .celib_story_wrap .sub_s4 .s4_circle ul li:first-child {
+            padding-left: 0;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul li:last-child {
+            padding-right: 0;
+        }
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul li div {
+            display: table-cell;
+            vertical-align: middle;
+        }
+    
+    
+        .celib_story_wrap .sub_s4 .s4_circle ul li h4 {
+            font-size: 0.8rem;
+            line-height: 1.5;
+            margin: 0;
+        }
+    
+    }
+
+    /*@media (max-width: 320px) → 모바일 사이즈 끝*/

@@ -1,0 +1,486 @@
+/*@media (max-width: 1920px) 컴퓨터 화면 시작*/
+
+
+
+    /* 셀립 순라 소개 시작 */
+
+
+    #soonra .sub_s3 .textWrap img {
+        width: 162px;
+    }
+
+    /* 셀립 순라 소개 끝 */
+
+    /* 셀립순라에 살면 좋은점 시작 */
+
+    #soonra .sub_s4 {
+        background: #ECE8E3;
+    }
+
+    #soonra .sub_s4 .textWrap ul {
+        padding: 0;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:first-child {
+        padding: 62px 50px;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:last-child {
+        padding: 50px 50px;
+    }
+
+
+    /* 셀립순라에 살면 좋은점 시작 끝 */
+
+
+    #soonra .sub_s6 {
+        background: #f9f9f9;
+    }
+
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 css 시작 */
+
+    #soonra .drawings_wrap a div.txt_con h4 {
+        font-size: 28px;
+        margin-top: 14px;
+        color: #292929 !important;
+    }
+    #soonra .drawings_wrap a.button {
+        width: 60%;
+        margin: 20px auto;
+        height: 271px; 
+        display: flex;
+    }
+    #soonra .drawings_wrap a.button img {
+        height: auto;
+        min-height: 271px;   
+    }
+
+    #soonra .drawings_wrap a div.txt_con {
+      padding: 0 0 0 43px;
+    }
+    
+    #soonra .drawings_wrap .modal_con .s6_tab_btn > div {
+        justify-content: flex-start;
+    }
+
+    #soonra .drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+        padding: 10px 40px;
+    }
+    
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립 순라 옵션 시작  */
+
+    #soonra .sub_s7 .textWrap p {
+        color: #C2B5A5;
+    }
+
+    #soonra .sub_s7 .textWrap .s7_title {
+        margin-top: 80px;
+    }
+
+    /* 셀립 순라 옵션 끝  */
+
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+
+    #soonra .sub_s8 {
+        background: #ECE8E3;
+    }
+
+    #soonra .sub_s8 ul li {
+        background: #ECE8E3;
+    }
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+
+
+    #soonra .sub_s9 .subway_wrap {
+        padding-left: 30px;
+    }
+
+    /* 셀립 지도 끝 */
+
+
+    /* 셀립 지점별 투어 신청 시작 */
+
+    #soonra .sub_soonra {
+        background-image: url(/assets/images/sub/soonra/s10_img.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+
+
+    /* 셀립 지점별 투어 신청 끝 */
+
+
+
+/*@media (max-width: 1920px) 컴퓨터 화면 끝*/
+
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+@media screen and (min-width:769px) and (max-width:1099px) {
+
+
+    /* 셀립에 살면 좋은점 시작 */
+    #soonra .sub_s4 .textWrap ul li:first-child {
+        padding: 56px 0;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:last-child {
+        padding: 45px 0;
+    }
+    #soonra .sub_s4 .textWrap ul li {
+        flex: 1 1 0;
+        align-self: flex-start;
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+        margin: 0 5px;
+    }
+
+    /* 셀립에 살면 좋은점 끝 */
+
+    /* 셀립 순라 공간구성 시작 */
+    #soonra .small_gallery img {
+        width: 7vw;
+    }
+    /* 셀립 순라 공간구성 끝 */
+
+    /* 셀립 지도 시작 */
+    #soonra .sub_s9 .map_wrap {
+        width: 680px;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+    
+    /* 셀립 지점별 투어 신청 끝 */
+
+
+
+    #soonra .drawings_wrap a.button {
+      height:180px;
+    }
+
+    #soonra .drawings_wrap a.button img {
+        height:auto;
+        min-height:180px;
+    }
+
+}
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+
+
+/*@media (max-width: 768px) → 아이패드 사이즈  시작*/
+@media (max-width: 768px) {
+
+    /* 셀립 지점 소개 시작 */
+
+    #soonra .sub_s3 .textWrap img {
+        width: 150px;
+    }
+
+    /* 셀립 지점 소개 끝 */
+
+    /* 셀립순라에 살면 좋은점 시작 */
+
+    #soonra .sub_s4 .textWrap ul li:first-child {
+        padding: 40px 20px;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:last-child {
+        padding: 25px 20px;
+    }
+
+    /* 셀립순라에 살면 좋은점 끝 */
+
+
+    /* 셀립순라 공간구성 갤러리 시작 */
+
+    #soonra .sub_s5 {
+        height: 600px;
+    }
+
+
+    #soonra .small_gallery img {
+        width:45px;
+    }
+
+    #soonra .sub_s5 .sub_gallery_wrap {
+        justify-content: center;
+    }
+
+    /* 셀립순라 공간구성 갤러리 끝 */
+
+    /* 셀립순라 편하게 쉴 수 있는 개인룸 시작 */
+
+    #soonra .sub_s6 {
+        height: 940px;
+    }
+    #soonra .drawings_wrap a div.txt_con h4 {
+        font-size: 21px;
+        margin-top: 11px;
+        color: #292929 !important;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 css 시작 */
+
+    #soonra .drawings_wrap a.button {
+       height: 143px;
+       margin-top: 0;
+    }
+
+    #soonra .drawings_wrap a.button img {
+        height: auto;
+        min-height: 143px;
+     }
+
+    #soonra .drawings_wrap a div.txt_con {
+        padding: 0 0 0 20px;
+    }
+
+    #soonra .drawings_wrap a div.txt_con h3 {
+        font-size: 0.998rem ;
+    }
+
+    #soonra .drawings_wrap a div.txt_con h4 {
+        margin-top: 15px;
+        font-size: 0.998rem;
+    }
+    #soonra .drawings_wrap a div.txt_con p {
+        margin-top: 5px;
+        font-size: 0.633rem;
+    }
+    #soonra .drawings_wrap a div.txt_con span {
+        margin-top: 5px;   
+        font-size: 0.492rem
+    }
+    
+   
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+    
+    /* 셀립순라 옵션 시작 */
+    #soonra .sub_s7 .textWrap .s7_title {
+        margin-top: 0;
+    }
+    /* 셀립순라 옵션 끝 */
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+
+}
+
+/*@media (max-width: 768px) → 아이패드 사이즈  끝*/
+
+
+/*@media (max-width: 414px) → 모바일 사이즈 시작*/
+@media (max-width: 535px) {
+
+
+    /* 셀립순라 슬로건 시작 */
+
+    #soonra .sub_s2 .textWrap {
+        padding: 0 80px 25px 0;
+    }
+
+    /* 셀립순라 슬로건 끝 */
+
+    /* 셀립순라 지점 소개 시작 */
+
+    #soonra .sub_s3 .textWrap img {
+        width: 114px;
+    }
+
+    /* 셀립순라 소개 끝 */
+
+    /* 셀립순라에 살면 좋은점 시작 */
+
+    #soonra .sub_s4 {
+        background: #ECE8E3;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:first-child {
+        padding: 10px;
+    }
+
+    #soonra .sub_s4 .textWrap ul li:last-child {
+        padding: 10px;
+    }
+
+    
+
+    /* 셀립순라에 살면 좋은점 끝 */
+
+    /* 셀립 공간구성 갤러리 시작 */
+
+    #soonra .sub_s5 {
+        height: auto;
+    }
+
+    /* 셀립 공간구성 갤러리 끝*/
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+    #soonra .sub_s6 {
+        height: auto;
+    }
+    #soonra .drawings_wrap a.button {
+        width: 100%;
+        height: 136px;
+    }
+
+    #soonra .drawings_wrap a.button img {
+        height: auto;
+        min-height: 136px;
+    }
+
+
+    #soonra .drawings_wrap a div.txt_con h4 {
+        margin-top: 15px;
+        font-size: 0.998rem;
+    }
+    #soonra .drawings_wrap a div.txt_con p {
+        margin-top: 0px;
+        font-size: 0.633rem;
+    }
+    #soonra .drawings_wrap a div.txt_con span {
+        margin-top: 0px;   
+        font-size: 0.492rem
+    }
+
+
+    #soonra .drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+        margin-right: 3vw;
+        padding: 10px 2.5vw;
+    }
+    
+    #soonra .drawings_wrap .modal_con .s6_tab_btn .s6_tablink:nth-child(2) {
+        margin-right: 0;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립 지점별 옵션 시작 */
+
+    #soonra .sub_s7 .textWrap .s7_title {
+        margin-top: 0;
+    }
+
+    /* 셀립 지점별 옵션 끝 */
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+
+    #soonra .sub_s8 {
+        height: auto;
+    }
+
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+
+    #soonra .sub_s9 .celib_position {
+        justify-content: flex-start;
+        flex-wrap: wrap;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+    #soonra .sub_soonra {
+        background-image: url(/assets/images/sub/soonra/m_s10_img.jpg);
+    }
+
+    /* 셀립 지점별 투어 신청 끝 */
+
+    #soonra .mo_gallery_list .floor_con{
+      height: 530px
+    }
+
+    #soonra .mo_gallery_list .floor_con .floor_txt{
+      padding: 50px 0 0 0;
+    }
+
+}
+
+/*@media (max-width: 375px) → 모바일 사이즈 시작*/
+
+@media (max-width:375px) {
+    /* 셀립순라 슬로건 시작 */
+
+    #soonra .sub_s2 .textWrap {
+        padding: 0 60px 25px 0;
+    }
+
+    /* 셀립순라 슬로건 끝 */
+    
+   
+    #soonra .sub_s5 h4 {
+        bottom: 7vh;
+        right: 0vw;
+        width: 51%;
+    }
+
+    /* 셀립 공간구성 갤러리 끝 */
+
+    #soonra .mo_gallery_list .floor_con {
+        height: 480px;
+        max-height: 480px;
+        min-height: 480px;
+    }
+
+  
+    #soonra .mo_gallery_list .floor_con img {
+        bottom:0px;
+      }
+}
+
+/*@media (max-width: 375px) → 모바일 사이즈 끝*/
+
+/*@media (max-width: 320px) → 모바일 사이즈 끝*/
+@media (max-width:320px) {
+    
+    /* 셀립순라 슬로건 시작 */
+
+    #soonra .sub_s2 .textWrap {
+        padding: 0 0px 25px 0;
+    }
+
+    /* 셀립순라 슬로건 끝 */
+    
+    
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+    #soonra .sub_s6 p {
+        font-size: 0.8rem;
+        line-height: 1.7;
+    }
+
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    #soonra .mo_gallery_list .floor_con {
+        height: 450px;
+        max-height: 450px;
+        min-height: 450px;
+      }
+    
+    #soonra .mo_gallery_list .floor_con img {
+        bottom: 25px;
+    }
+
+}
+
+/*@media (max-width: 320px) → 모바일 사이즈 끝*/

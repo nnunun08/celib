@@ -1,0 +1,2095 @@
+/*@media (max-width: 1920px) 컴퓨터 화면 시작*/
+
+/* 헤더 투어신청 메뉴 제거 시작 - 서브페이지에서만*/
+
+.headerCenter.sub {
+    max-width: 993px;
+    width: 993px;
+}
+.headerCenter.sub .menuBar > ul {
+    padding: 0;
+}
+
+.headerCenter.sub .menuBar ul .top_menu {
+    min-width: auto;
+    margin-left: 60px;
+}
+
+/* 헤더 투어신청 메뉴 제거 시작 - 끝 */
+
+
+/* 서브페이지 플로팅메뉴 시작 */
+.sub_apply_fix_mo {
+    display: block;
+    position: fixed;
+    bottom: 1vh;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 92%;
+    max-width: 1100px;
+    height: 60px;
+    background: #1b1b1b;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 2px;
+    background-image: url(/assets/images/sub/btn_fixed.png);
+    background-repeat: no-repeat;
+    background-position: 56.5% center;
+    cursor: pointer;
+    z-index: 100;
+    -webkit-appearance: none;
+    -webkit-border-radius: 0;
+    text-align: center;
+    line-height: 60px;
+}
+.sub_apply_fix_mo .kr300wh {
+    font-size: 20px;
+    padding-right: 30px;
+}
+
+/* 서브페이지 플로팅메뉴 끝 */
+
+/* 서브페이지 고정 시작 */
+.sub_fix_wrap {
+    background: #ECE8E3;
+    position: fixed;
+    top: 86px;
+    width: 100%;
+    z-index: 5;
+}
+
+.sub_fix_wrap .fix_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 20px 0;
+    box-sizing: border-box;
+}
+
+.sub_fix_wrap .fix_wrap .house_name {
+    text-align: left;
+    color: #3c3c3c;
+}
+
+.sub_fix_wrap .fix_wrap .house_name h2 {
+    font-size: 30px;
+    margin: 0;
+}
+
+.sub_fix_wrap .fix_wrap .house_name h3 {
+    font-size: 20px;
+    margin: 0;
+    padding-top: 3px;
+}
+
+.sub_fix_wrap .fix_wrap .house_name h3 span {
+    opacity: 0.5;
+}
+
+.sub_fix_wrap .fix_wrap .house_count {
+    text-align: right;
+    color: #3c3c3c;
+}
+
+.sub_fix_wrap .fix_wrap .house_count h4 {
+    font-size: 26px;
+    margin: 0;
+}
+
+.sub_fix_wrap .fix_wrap .house_count h5 {
+    font-size: 20px;
+    opacity: 0.5;
+    margin: 0;
+    padding-top: 3px;
+}
+
+/* 서브페이지 고정 끝 */
+
+/* 서브페이지 메인 이미지 시작 */
+.sub_s1 {
+    width: 100%;
+    height: auto;
+    margin-top: 186px;
+}
+
+.sub_s1 img {
+    width: 100%;
+}
+
+.sub_s1 .img_wrap{
+    position:relative; 
+}
+
+.sub_s1 .sub_txt {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 1100px;
+    max-width: 1100px;
+    height: 144px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    z-index: 2;
+}    
+
+.sub_s1 .sub_txt h1{
+    font-size: 34px;
+    text-align: right;
+    letter-spacing: -2%;
+    line-height: 2.835rem;
+    color: #232323 !important;
+    margin: 0;
+    padding: 0;
+}
+
+.sub_s1 .sub_txt p{
+    font-size: 30px;
+    color: #232323 !important;
+    margin: 36px 0 0 0;
+    padding: 0;
+}
+
+
+/* 서브페이지 메인 이미지 끝 */
+
+
+/* 셀립 지점별 슬로건 시작 */
+.sub_s2 {
+    display: none;
+}
+
+.sub_s2 .textWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+    padding: 45px 0;
+}
+
+.sub_s2 h3 {
+    font-size: 27px;
+}
+
+.sub_s2 hr {
+    width: 269px;
+    height: 0px;
+    background: var(--gry);
+}
+
+.sub_s2 p {
+    font-size: 30px;
+}
+
+/* 셀립 지점별 슬로건 끝 */
+
+/* 셀립 지점 소개 시작 */
+
+.sub_s3 {
+    width: 100%;
+    height: auto;
+    padding: 165px 0;
+    background: #f9f9f9;
+    margin-top: -7px;
+}
+
+.sub_s3 .textWrap {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub_s3 .textWrap img {
+    width: 364px;
+}
+
+.sub_s3 .textWrap p {
+    font-size: 22px;
+    line-height: 30px;
+}
+
+/* 셀립 지점 소개 끝 */
+
+/* 셀립에 살면 좋은점 시작 */
+
+.sub_s4 {
+    width: 100%;
+    height: auto;
+    padding: 125px 0;
+    background: #E0E7DE;
+    text-align: center;
+}
+
+.sub_s4 .textWrap {
+    width: 100%;
+}
+
+.sub_s4 .textWrap h1 {
+    font-size: 40px;
+    line-height: 0;
+    margin-bottom: 70px;
+}
+
+.sub_s4 .textWrap ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sub_s4 .textWrap ul li {
+    padding: 50px;
+    background: #fff;
+    box-shadow: 1px 1px 10px #bebebe;
+}
+
+.sub_s4 .textWrap ul li h3 {
+    font-size: 17px;
+    line-height: 22px;
+}
+
+.sub_s4 .textWrap ul li p {
+    font-size: 13px;
+    line-height: 17px;
+    opacity: 0.6;
+}
+
+.sub_s4 .textWrap ul li:first-child {
+    padding: 55px 40px;
+}
+
+.sub_s4 .textWrap ul li:last-child {
+    padding: 62px 65px;
+}
+
+/* 셀립에 살면 좋은점 시작 끝 */
+
+/* 셀립 공간구성 갤러리 시작 */
+
+.sub_s5 {
+    width: 100%;
+    height: auto;
+    padding: 125px 0;
+    text-align: center;
+}
+
+.sub_s5 h1 {
+    font-size: 40px;
+    margin-bottom: 55px;
+}
+
+.sub_s5 .sub_gallery_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+
+.sub_s5 img {
+    width: 100%;
+}
+
+.sub_s5 p {
+    margin-top: 40px;
+    font-size: 14px;
+    opacity: 0.6;
+}
+
+.big_gallery {
+    width: 840px;
+    height: 485px;
+    overflow: hidden;
+}
+
+.small_gallery {
+    width: 100%;
+    overflow-x: hidden;
+    margin-top: 10px;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    justify-content: flex-start;
+}
+
+.small_gallery img {
+    width: 87px;
+    opacity: 0.4;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.small_gallery img:last-child {
+    margin-right: 0;
+}
+
+.small_gallery img:hover {
+    width: 87px;
+    transition: 0.5s;
+    opacity: 1;
+}
+
+.gallery_list ul {
+    margin: 0;
+}
+
+.gallery_list li {
+    display: block;
+    text-align: left;
+    font-size: 15px;
+    color: #3c3c3c;
+    font-weight: 500;
+    margin-bottom: 20px;
+    opacity: 0.4;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.gallery_list li:last-child {
+    margin-bottom: 0;
+}
+
+.active {
+    opacity: 1 !important;
+}
+
+.gallery_list li:hover {
+    opacity: 1;
+}
+
+/* 셀립 공간구성 갤러리 시작 끝 */
+
+/* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+.sub_s6 {
+    width: 100%;
+    height: auto;
+    padding: 125px 0;
+    background: #f9f9f9;
+    text-align: center;
+}
+
+.sub_s6 .textWrap {
+    width: 100%;
+}
+
+.sub_s6 h1 {
+    font-size: 40px;
+}
+
+.sub_s6 .textWrap h2 {
+    font-size: 16px;
+    line-height: 23px;
+    opacity: 0.8;
+}
+
+.sub_s6 p {
+    width: 100%;
+    font-size: 14px;
+    line-height: 24px;
+}
+
+.drawings_wrap .modal-open {
+    cursor: pointer;
+}
+
+
+/* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 css 시작 */
+.drawings_wrap {
+    width: 100%;
+    margin-top: 50px;
+    justify-content: space-between;
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.drawings_wrap a.button {
+    align-items: center;
+    display: inline-flex;
+    flex-wrap: nowrap;
+    width: 48%;
+    height: 318px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    position: relative; 
+}
+
+.drawings_wrap a.button img {
+    width: 100%;
+    height: auto;
+    min-height: 318px;
+    display: block;
+}
+
+.drawings_wrap a.button:hover {
+    box-shadow: 1px 1px 10px #bebebe;
+    transition: 0.5s;
+}
+
+/* .drawings_wrap a div + div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1
+} */
+.drawings_wrap a div.txt_con {
+    position: absolute; 
+    width: 100%;
+    height: auto;
+    top: 50%; 
+    left: 0; 
+    transform: translate(0,-50%);
+    display: flex; 
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 0 0 0 33px;
+    box-sizing: border-box;
+    z-index: 2; 
+}
+.drawings_wrap a div.txt_con * {
+    text-align: left; 
+    margin: 0; 
+    padding: 0;
+}
+.drawings_wrap a div.txt_con h3 {
+    font-size: 1.775rem ;
+}
+.drawings_wrap a div.txt_con h4 {
+    font-size: 22px;
+    margin-top: 30px;
+    color: #292929 !important;
+}
+.drawings_wrap a div.txt_con p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: rgba(117,117,117,0.5) !important;
+}
+.drawings_wrap a div.txt_con span {
+    font-size: 14px;
+    margin-top: 10px;
+    color: #2d2d2d !important;
+}
+
+.drawings_wrap a.last_modal {
+    width: 100%;
+}
+
+.drawings_wrap #modal {
+    display: none;
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.3);
+}
+
+.drawings_wrap .modal_con {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    box-shadow: 1px 1px 10px #3c3c3c;
+    text-align: left;
+    border-radius: 2px;
+    width: 100%;
+    max-width: 820px;
+    height: auto;
+    z-index: 999;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn {
+    background: #1e1e1e;
+    padding: 20px;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn h2 {
+    margin: 0;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn hr {
+    border: none;
+    height: 2px;
+    background: #fff;
+    opacity: 0.5;
+    margin: 15px 0;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn > div {
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+    border: 1px solid #fff;
+    background: #1e1e1e;
+    color: #fff;
+    border-radius: 2px;
+    padding: 10px 30px;
+    margin-right: 8px;
+    cursor: pointer;
+    font-size: 14px;
+    box-sizing: border-box;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn .s6_tablink:hover {
+    background: #fff;
+    color: #1e1e1e;
+    transition: 0.5s;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn .s6_tablink:last-child {
+    margin-right: 0;
+}
+
+.drawings_wrap .modal_con .close {
+    display: block;
+    position: absolute;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    text-decoration: none;
+    color: #3c3c3c;
+    font-size: 24px;
+    font-weight: bold;
+    right: 20px;
+    top: 20px;
+}
+
+.drawings_wrap .modal_con .s6_tab_btn .s6_btn_active {
+    background: #fff;
+    color: #1e1e1e;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap {
+    padding: 20px;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap > .s6_tabcontent {
+    display: none;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_big {
+    width: 100%;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_big img {
+    width: 100%;
+    min-height: auto;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm {
+    display: inline-flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+    margin: 20px 0 0 20px;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img {
+    margin-bottom: 10px;
+    opacity: 0.5;
+    cursor: pointer;
+    box-sizing: border-box;
+    width: 100%;
+    min-height: auto;
+    transition: 0.3s;
+}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img:last-child {}
+
+.drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img:hover {
+    opacity: 1;
+}
+
+.house_view .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6ImgActive {
+    opacity: 1;
+    border: 2px solid #000;
+    border-radius: 2px;
+    box-sizing: border-box;
+    box-shadow: 1px 1px 10px #bebebe;
+}
+
+/* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+/* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+/* 셀립 지점별 옵션 시작 */
+.sub_s7 {
+    height: auto;
+    padding: 120px 0;
+}
+
+.sub_s7 .textWrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.sub_s7 .textWrap h2 {
+    font-size: 26px;
+    line-height: 30px;
+}
+
+.sub_s7 .textWrap ul {
+    padding: 0;
+}
+
+.sub_s7 .textWrap ul li {
+    font-size: 16px;
+    line-height: 32px;
+    opacity: 0.6;
+}
+
+.sub_s7 .textWrap ul li:before {
+    display: block;
+    content: 'ㆍ';
+    float: left;
+
+}
+
+.sub_s7 .textWrap p {
+    color: #8a8a8a;
+}
+
+.sub_s7 .textWrap .s7_title {
+    margin-top: 50px;
+}
+
+.sub_s7 .textWrap ul li span {
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.sub_s7 .textWrap hr {
+    width: 1px;
+    border: none;
+    height: 100%;
+    background: var(--gry);
+    opacity: 0.6;
+}
+
+/* 셀립 지점별 옵션 끝 */
+
+/* 셀립 간편하고 유연한 계약&입주 시작 */
+
+.sub_s8 {
+    background: #E0E7DE;
+    height: 580px;
+}
+
+.sub_s8 ul li {
+    background: #E0E7DE;
+}
+
+/* 셀립 간편하고 유연한 계약&입주 끝 */
+
+/* 셀립 지도 시작 */
+
+.sub_s9 {
+    padding: 65px 0;
+}
+
+.sub_s9 .celib_position {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    flex-direction: row;
+}
+
+.sub_s9 .map_wrap {
+    width: 780px;
+}
+
+.sub_s9 .map_wrap img {
+    width: 100%;
+}
+
+.sub_s9 .subway_wrap {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-around;
+    padding-left: 75px;
+}
+
+.sub_s9 .subway_wrap h2 {
+    font-size: 26px;
+    font-weight: 500;
+}
+
+.sub_s9 .subway_wrap h3 {
+    font-size: 22px;
+    opacity: 0.6;
+}
+
+.sub_s9 .subway_wrap h4 {
+    margin-top: 10px;
+}
+
+.sub_s9 .subway_wrap {
+    font-size: 22px;
+}
+
+.sub_s9 .subway_wrap img {
+    width: 27px;
+}
+
+.sub_s9 .subway_wrap span {
+    margin-right: 7px;
+}
+
+.sub_s9 .subway_wrap p {
+    opacity: 0.6;
+    line-height: 0;
+}
+
+/* 지하철 호선 컬러 지정 시작 */
+
+.subway_1 {
+    color: #2A47DE;
+}
+
+.subway_km {
+    color: #39C6C6;
+}
+
+
+.subway_3 {
+    color: #F78B3D;
+}
+
+.subway_4 {
+    color: #46A6EB;
+}
+
+.subway_5 {
+    color: #914BD8;
+}
+
+.subway_6 {
+    color: #87513A;
+}
+
+.bus_600 {
+    color: #2A65D7;
+}
+
+.bus_6000 {
+    color: #5ECE06;
+}
+
+/* 지하철 호선 컬러 지정 끝 */
+
+/* 셀립 지도 끝 */
+
+
+/* 셀립 지점별 투어 신청 시작 */
+.sub_s10 {
+    width: 100%;
+    height: auto;
+    padding: 75px 0;
+    text-align: center;
+}
+
+.sub_s10 .ctnWrap {
+    justify-content: flex-end;
+}
+
+.sub_s10 .s10_content {
+    text-align: left;
+    padding: 40px 30px;
+    background: rgba(255, 255, 255, 0.8);
+    color: #3c3c3c;
+}
+
+.sub_soonra {
+    background-image: url(/assets/images/sub/soonra/s10_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.sub_s10 .s10_content h2 {
+    font-size: 40px;
+}
+
+.sub_s10 .s10_content h3 {
+    font-size: 37px;
+    line-height: 48px;
+}
+
+.sub_s10 .s10_content h4 {
+    font-size: 20px;
+    line-height: 26px;
+}
+
+.sub_s10 .s10_content h5 {
+    font-size: 22px;
+    font-family: 'europa', 'sans-serif';
+    line-height: 0;
+}
+
+.sub_s10 .s10_content a {
+    text-align: center;
+    font-size: 21px;
+    display: block;
+    background: #1c1c1c;
+    color: #fff;
+    border-radius: 2px;
+    padding: 20px 0;
+}
+
+.sub_s10 .s10_content a:hover {
+    box-shadow: 1px 1px 10px #bebebe;
+    transition: 0.5s;
+}
+
+/* 셀립 지점별 투어 신청 끝 */
+
+
+
+/*@media (max-width: 1920px) 컴퓨터 화면 끝*/
+
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+@media screen and (min-width:769px) and (max-width:1099px) {
+    /* 헤더 투어신청 메뉴 제거 시작 - 서브페이지에서만 */
+
+    header .headerCenter .sub {
+        max-width: 830px;
+        width: 830px;
+    }
+
+    .headerCenter .sub .menuBar > ul {
+        padding: 0;
+    }
+
+    .headerCenter .sub .menuBar ul .top_menu {
+        min-width: auto;
+        margin-left: 60px;
+    }
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 끝 */
+
+    /* 서브페이지 플로팅메뉴 시작 */
+    .sub_fix_wrap {
+        top: 85px;
+    }
+    .sub_apply_fix_mo {
+        bottom: 1vh;
+        width: 92%;
+        max-width: 920px;
+        background-position: 58.5% center;
+    }
+
+    .sub_apply_fix_mo .kr300wh {
+        padding-right: 60px;
+    }
+    /* 서브페이지 플로팅메뉴 끝 */
+
+    /* 서브페이지 메인 이미지 시작 */
+    .sub_s1 {
+        height: auto;
+        margin-top: 187px;
+    }
+
+
+    .sub_s1 .sub_txt {
+        position: absolute;
+        width: 92%;
+        max-width: 950px;
+    }    
+
+
+    /* 서브페이지 메인 이미지 끝 */
+
+    /* 셀립에 살면 좋은점 시작 */
+
+    .sub_s4 {
+        width: 100%;
+        height: auto;
+        background: #ecebe3;
+        text-align: center;
+    }
+
+    .sub_s4 .textWrap ul li {
+        padding: 45px;
+    }
+
+    .sub_s4 .textWrap ul li:first-child {
+        padding: 46px 30px;
+    }
+
+    .sub_s4 .textWrap ul li:last-child {
+        padding: 56px 60px;
+    }
+
+    /* 셀립에 살면 좋은점 끝 */
+
+    /* 셀립 공간구성 갤러리 시작 */
+
+    .sub_s5 {
+        height: auto;
+        padding: 85px 0;
+    }
+    .sub_s5 .sub_gallery_wrap {
+        flex-wrap: nowrap;
+    }
+    .big_gallery {
+        width: 69vw;
+        height: auto;
+    } 
+
+
+    /* 셀립 공간구성 갤러리 끝 */
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+    .sub_s6 {
+        height: 1080px;
+        padding: 125px 0;
+    }
+
+
+    .drawings_wrap .modal-open img {
+        width: 224px;
+    }
+
+
+    /* 모달 팝업 css 시작 */
+    .drawings_wrap a.button {
+        width: 43%;
+        height: 228px;
+    }
+
+    .drawings_wrap a div.txt_con h4{
+      margin-top:20px;
+    }
+    .drawings_wrap a div.txt_con p,
+    .drawings_wrap a div.txt_con span{
+      margin-top:5px;
+    }
+
+    .drawings_wrap a.last_modal {
+        width: 100%;
+    }
+
+    .drawings_wrap .modal_con {
+        max-width: 90%;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+        padding: 10px 20px;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 css 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+    .sub_s8 ul li {
+        width: 33%;
+    }
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+    .sub_s9 .map_wrap {
+        width: 680px;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+
+    /* 셀립 지점별 투어 신청 끝 */
+}
+
+/*@media screen and (min-width:769px) and (max-width:850px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+@media screen and (min-width:769px) and (max-width:980px) {
+    /* 셀립 공간구성 갤러리 시작 */
+    /* .sub_s5 {
+        height: auto;
+        padding: 85px 0;
+    } */
+
+    /* .big_gallery {
+        width: 550px !important;
+        height: 350px;
+    } */
+
+
+    /* 셀립 공간구성 갤러리 끝 */
+}
+
+/*@media screen and (min-width:769px) and (max-width:1099px) → 아이패드 프로~패드 전까지 사이즈  시작*/
+
+
+/*@media (max-width: 768px) → 아이패드 사이즈  시작*/
+@media (max-width: 768px) {
+
+    /* 헤더 투어신청 메뉴 - 서브페이지에서만*/
+
+    .headerCenter.sub .menuBar ul .top_menu {
+        margin-left: 50px;
+    }
+    .headerCenter .menuBar > ul:last-child {
+        padding-right: 30px;
+    }
+    /* 서브페이지 고정 시작 */
+    .sub_fix_wrap {
+        top: 85px;
+    }
+
+    .sub_fix_wrap .fix_wrap {
+        padding: 15px 0;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_name h2 {
+        font-size: 1.8rem;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_name h3 {
+        font-size: 1.2rem;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_count h4 {
+        font-size: 1.6rem;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_count h5 {
+        font-size: 1.2rem;
+    }
+
+    /* 서브페이지 고정 끝 */
+    
+    /* 서브페이지 플로팅메뉴 시작 */
+    .sub_apply_fix_mo {
+        bottom: 1vh;
+        width: 92%;
+        max-width: 650px;
+        background-position: 60.5% center;
+    }
+    .sub_apply_fix_mo .kr300wh {
+        padding-right: 49px;
+    }
+    /* 서브페이지 플로팅메뉴 끝 */
+
+    /* 서브페이지 메인 이미지 시작 */
+    .sub_s1 {
+        height: auto;
+        margin-top: 175px;
+    }
+
+
+    .sub_s1 .sub_txt {
+        position: absolute;
+        width: 92%;
+        max-width: 700px;
+    }    
+
+    .sub_s1 .sub_txt h1{
+        font-size: 1.875rem ;
+        line-height: 1.875rem;
+    }
+
+    .sub_s1 .sub_txt p{
+        font-size: 25px;
+    }
+
+
+    /* 서브페이지 메인 이미지 끝 */
+
+    /* 셀립 지점별 슬로건 시작 */
+
+    .sub_s2 .textWrap {
+        width: 100%;
+        padding: 25px 0;
+    }
+
+    .sub_s2 h3 {
+        font-size: 22px;
+    }
+
+    .sub_s2 hr {
+        width: 95px;
+        height: 0px;
+    }
+
+    .sub_s2 p {
+        font-size: 28px;
+    }
+
+    /* 셀립 지점별 슬로건 끝 */
+
+    /* 셀립 지점 소개 시작 */
+
+    .sub_s3 {
+        height: auto;
+        padding: 75px 0;
+        background: #f9f9f9;
+    }
+
+    .sub_s3 .textWrap img {
+        width: 300px;
+    }
+
+    .sub_s3 .textWrap p {
+        font-size: 21px;
+        margin-top: 55px;
+        text-align: center;
+    }
+
+    /* 셀립 지점 소개 끝 */
+
+    /* 셀립에 살면 좋은점 시작 */
+
+    .sub_s4 {
+        height: 680px;
+        padding: 65px 0;
+    }
+
+    .sub_s4 .textWrap h1 {
+        font-size: 1.8rem
+    }
+
+    .sub_s4 .textWrap ul {
+        padding: 0;
+    }
+
+    .sub_s4 .textWrap ul li {
+        padding: 25px;
+        width: 40%;
+        margin-bottom: 45px;
+    }
+
+    .sub_s4 .textWrap ul li h3 {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .sub_s4 .textWrap ul li p {
+        font-size: 18px;
+        line-height: 22px;
+    }
+
+    .sub_s4 .textWrap ul li:first-child {
+        padding: 25px 20px;
+    }
+
+    .sub_s4 .textWrap ul li:last-child {
+        padding: 40px 20px;
+    }
+
+    /* 셀립에 살면 좋은점 끝 */
+
+    /* 셀립 공간구성 갤러리 시작 */
+
+    .sub_s5 {
+        padding: 65px 0;
+        height: auto;
+    }
+
+    .sub_s5 h1 {
+        font-size: 1.8rem;
+    }
+
+    .big_gallery {
+        width: 440px;
+        height: 255px;
+    }
+
+    /* 셀립 공간구성 갤러리 끝 */
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+    .sub_s6 {
+        height: auto;
+        padding: 105px 0;
+    }
+
+    .sub_s6 h1 {
+        font-size: 1.8rem;
+    }
+
+    .drawings_wrap .modal-open div {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+    }
+
+    .drawings_wrap .modal-open img {
+        width: 184px;
+        justify-content: space-between;
+        align-items: flex-end;
+        display: inline-flex;
+        flex-wrap: nowrap;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 css 시작 */
+
+    .drawings_wrap a.button {
+        width: 40%;
+        height: 180px;
+    }
+
+    .drawings_wrap a div.txt_con{
+      padding:0 0 0 20px;
+    }
+
+    .drawings_wrap a div.txt_con h3{
+      font-size: 1.3rem ;
+    }
+
+    .drawings_wrap a div.txt_con h4{
+      margin-top:15px;
+      font-size:0.998rem;
+    }
+    .drawings_wrap a div.txt_con p{
+      font-size:0.633rem;
+      margin-top:2px;
+
+    }
+    .drawings_wrap a div.txt_con span{
+      font-size:0.492rem;
+      margin-top:2px;
+    }
+
+    .drawings_wrap a.last_modal {
+        width: 100%;
+    }
+
+
+    .drawings_wrap .modal_con {
+        max-width: 80%;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+        padding: 10px 2.5vw;
+        font-size: 0.7rem;
+    }
+
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립 지점별 옵션 시작 */
+
+    .sub_s7 {
+        height: auto;
+        padding: 65px 50px;
+    }
+
+    .sub_s7 .textWrap {
+        flex-direction: column;
+    }
+
+    .sub_s7 .textWrap h2 {
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .sub_s7 .textWrap ul {
+        padding: 0;
+    }
+
+    .sub_s7 .textWrap ul li {
+        display: inline-flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-end;
+    }
+
+    .sub_s7 .textWrap ul li span {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .sub_s7 .textWrap hr {
+        width: 100%;
+        height: 1px;
+    }
+
+
+    /* 셀립 지점별 옵션 끝 */
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+
+    .sub_s8 {
+        height: auto;
+    }
+
+    .sub_s8 .hrWrap .dotWrap {
+        top: 4px;
+    }
+
+    .sub_s8 .hrWrap .dotWrap {
+        height: 325px;
+    }
+
+    .sub_s8 .hrWrap hr {
+        height: 320px;
+    }
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+
+    .sub_s9 {
+        padding: 65px 0;
+    }
+
+    .sub_s9 .map_wrap {
+        width: 500px;
+    }
+
+
+    .sub_s9 .subway_wrap {
+        padding-left: 15px;
+    }
+
+    .sub_s9 .subway_wrap h2 {
+        font-size: 1.5rem;
+    }
+
+    .sub_s9 .subway_wrap h3 {
+        font-size: 1.4rem;
+    }
+
+    .sub_s9 .subway_wrap div h4,
+    .sub_s9 .subway_wrap div span {
+        font-size: 1.1rem;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+    .sub_s10 .ctnWrap {
+        justify-content: center;
+    }
+
+    /* 셀립 지점별 투어 신청 끝 */
+}
+
+/*@media (max-width: 768px) → 아이패드 사이즈  끝*/
+
+
+/*@media (max-width: 414px) → 모바일 사이즈 시작*/
+@media (max-width: 535px) {
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 서브페이지에서만 */
+    .mobile_menu .ctn {
+        justify-content: flex-start;
+    }
+
+    header .headerCenter .sub {
+        width: auto;
+        max-width: 100%;
+        margin-left: 17.5vw;
+    }
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 끝 */
+
+    /* 서브페이지 고정 시작 */
+    .sub_fix_wrap {
+        top: 67px;
+    }
+
+    .sub_fix_wrap .fix_wrap {
+        padding: 15px 0;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_name h2 {
+        font-size: 1rem;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_name h3 {
+        font-size: 0.8rem;
+        opacity: 0.5;
+        padding-top: 3px;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_count h4 {
+        font-size: 1rem;
+    }
+
+    .sub_fix_wrap .fix_wrap .house_count h5 {
+        font-size: 0.8rem;
+        padding-top: 3px;
+    }
+
+    /* 서브페이지 고정 끝 */
+
+    /* 서브페이지 플로팅메뉴 시작 */
+    .sub_apply_fix_mo {
+        bottom: 5vh;
+        left: 0;
+        transform: translate(0%, -50%);
+        width: 92%;
+        max-width: 230px;
+        background-position: 81.5% center;
+    }
+    .sub_apply_fix_mo .kr300wh {
+        font-size: 20px;
+        padding-right: 38px;
+    }
+    /* 서브페이지 플로팅메뉴 끝 */
+
+    /* 서브페이지 메인 이미지 시작 */
+    .sub_s1 {
+        width: 100%;
+        height: auto;
+        margin-top: 134px;
+    }
+
+    .sub_s1 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .sub_s1 .sub_txt {
+        position: absolute;
+        top: auto;
+        left: auto;
+        right: 21px;
+        bottom: 40px;
+        width: 92%;
+        max-width:460px;
+        height: 144px;
+        transform: translate(0,0)
+    }    
+
+    .sub_s1 .sub_txt h1{
+        font-size: 22px;
+        line-height: 1.65rem;
+    }
+
+    .sub_s1 .sub_txt p{
+        font-size : 24px;
+        font-weight: 500 !important;
+        margin: 24px 0 0 0;
+
+    }
+
+
+
+    /* 서브페이지 메인 이미지 끝 */
+
+    /* 셀립 지점별 슬로건 시작 */
+
+    /* 셀립 지점별 슬로건 끝 */
+
+    /* 셀립 지점 소개 시작 */
+
+    .sub_s3 {
+        height: auto;
+        padding: 80px 0px;
+    }
+
+    .sub_s3 .textWrap img {
+        width: 284px;
+    }
+
+    .sub_s3 .textWrap p {
+        font-size: 1rem;
+        line-height: 1.5;
+        letter-spacing: -1px;
+    }
+
+    /* 셀립 지점 소개 끝 */
+
+    /* 셀립에 살면 좋은점 시작 */
+
+    .sub_s4 {
+        width: 100%;
+        height: auto;
+        padding: 100px 0;
+        background: #ecebe3;
+        text-align: center;
+    }
+
+    .sub_s4 .textWrap {
+        width: 100%;
+    }
+
+    .sub_s4 .textWrap h1 {
+        font-size: 1.5rem;
+        line-height: 0;
+        margin-bottom: 45px;
+    }
+
+    .sub_s4 .textWrap ul {
+        padding: 0 25px;
+    }
+
+    .sub_s4 .textWrap ul li {
+        padding: 10px;
+        background: #fff;
+        box-shadow: 1px 1px 10px #bebebe;
+        width: 100%;
+    }
+
+    .sub_s4 .textWrap ul li h3 {
+        font-size: 1rem;
+        line-height: 10px;
+    }
+
+    .sub_s4 .textWrap ul li p {
+        font-size: 0.85rem;
+        line-height: 1.4;
+        opacity: 0.6;
+    }
+
+    .sub_s4 .textWrap ul li:first-child {
+        padding: 10px;
+    }
+
+    .sub_s4 .textWrap ul li:last-child {
+        padding: 10px;
+    }
+
+    /* 셀립에 살면 좋은점 끝 */
+
+    /* 셀립 공간구성 갤러리 시작 */
+
+    .sub_s5 {
+        width: 100%;
+        height: auto;
+        padding: 85px 0;
+    }
+
+    .sub_s5 .ctnWrap {
+        display: block;
+    }
+
+    .sub_s5 h1 {
+        text-align: left;
+        font-size: 24px;
+        margin-bottom: 0px;
+    }
+
+
+    .sub_s5 h4:before {
+
+        display: block;
+        content: '*';
+        float: left;
+        height: 65px;
+    }
+
+    .mo_gallery_list {
+/*       margin-top: 50px;*/
+         width: 100%;
+         height: auto;
+    }
+
+    .mo_gallery_txt {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .mo_gallery_list .floor_con {
+        width: 100%;
+        height: 736px;
+        position: relative;
+        overflow: hidden;
+    }
+    .mo_gallery_list .floor_con .floor_txt {
+        width:100%;
+        height:100%;
+        position: absolute;
+        top: 0; 
+        left: 0;
+        display: flex;
+        justify-content: flex-start;  
+        box-sizing: border-box;      
+        padding: 30px 0 0 0;
+        z-indeX: 2;
+    }
+    .mo_gallery_list .floor_con .floor_txt ul {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+    .mo_gallery_list .floor_con .floor_txt ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        align-items: center;
+        height: 26px;
+        margin-bottom: 5px;
+    }
+    .mo_gallery_list .floor_con .floor_txt ul li * {
+        margin: 0;
+        padding: 0;
+        text-align: left;
+    }
+    .mo_gallery_list .floor_con .floor_txt ul li span{
+        width: 58px;
+        color: #000 !important;
+        font-size: 14px;
+    }
+    .mo_gallery_list .floor_con .floor_txt ul li p {
+        width: calc(100% - 58px);
+        color: #8a8a8a !important;
+        font-size: 12px;
+    }
+    .mo_gallery_list .floor_con img {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+    } 
+    .mo_gallery_list img:first-child {
+        margin-bottom: 80px;
+        height: 100%;
+    }
+
+
+    .mo_gallery_list img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    
+    /* 셀립 공간구성 갤러리 끝*/
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+
+    .sub_s6 {
+        height: auto;
+        padding: 65px 0;
+    }
+
+
+    .sub_s6 h1 {
+        font-size: 1.5rem;
+    }
+
+    .sub_s6 .textWrap h2 {
+        font-size: 0.9rem;
+        line-height: 1.5;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 시작 */
+
+    .drawings_wrap a.button {
+        width: 100%;
+        height: 200px;
+        box-shadow: 1px 1px 10px #bebebe;
+    }
+
+    .drawings_wrap a.button img{
+        
+        min-height: 200px;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn,
+    .drawings_wrap .modal_con .s6_tabcontent_wrap {
+        padding: 15px;
+    }
+
+    .drawings_wrap .modal_con .s6_tabcontent_wrap > .s6_tabcontent {
+        flex-wrap: wrap;
+    }
+
+    .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_big {
+        margin-bottom: 10px;
+    }
+
+    .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm {
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin: 0;
+        width: 100%;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn > div {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn .s6_tablink {
+        width: 47%;
+        margin: 0 0 10px 0;
+    }
+
+    .drawings_wrap .modal_con .s6_tab_btn .s6_tablink:nth-child(5),
+    .drawings_wrap .modal_con .s6_tab_btn .s6_tablink:nth-child(6) {
+        margin-bottom: 0;
+    }
+
+    .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img {
+        width: 13.5vw;
+        height: 40px;
+        min-height: auto;
+        align-self: flex-start;
+        margin-right: 10px;
+    }
+
+    .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img:last-child {
+        margin-right: 0;
+    }
+    .drawings_wrap a div.txt_con h3{
+        font-size: 1.2rem ;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립 지점별 옵션 시작 */
+
+    .sub_s7 {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    .sub_s7 .textWrap {
+        width: 100%;
+    }
+
+    .sub_s7 .textWrap h2 {
+        font-size: 1.2rem;
+        line-height: 1.4;
+    }
+
+    .sub_s7 .textWrap ul {
+        padding: 0;
+        width: 100%;
+    }
+
+    .sub_s7 .textWrap ul li {
+        font-size: 0.8rem;
+        line-height: 2.8;
+        opacity: 0.6;
+        display: flex;
+        justify-content: flex-start;
+    }
+
+
+    .sub_s7 .textWrap ul li span {
+        font-size: 12px;
+        line-height: 24px;
+    }
+
+    .sub_s7 .textWrap h3 {
+        font-size: 12px;
+        width: 100%;
+        color: #5C7A55;
+    }
+
+    .sub_s7 .textWrap p {
+        font-size: 0.8rem;
+    }
+
+    /* 셀립 지점별 옵션 끝 */
+
+    /* 셀립 간편하고 유연한 계약&입주 시작 */
+
+    .sub_s8 {
+        height: auto;
+    }
+
+
+    .sub_s8 .hrWrap {
+        width: 100%;
+    }
+
+    .sub_s8 ul li {
+        padding-left: 6vh;
+    }
+
+    .sub_s8 ul li .s4Para {
+        font-size: 1rem;
+    }
+
+    .sub_s8 ul li .s4Title {
+        font-size: 0.8rem;
+    }
+
+    .sub_s8 .hrWrap .dotWrap {
+        left: 8px;
+        width: 0%;
+        height: 322px;
+    }
+
+    .sub_s8 .hrWrap hr {
+        left: 17px;
+        height: 310px;
+    }
+
+    /* 셀립 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+
+    .sub_s9 {
+        padding: 0;
+        height: auto;
+    }
+
+    .sub_s9 .ctnWrap {
+        margin: 0;
+        width: 100%;
+    }
+
+    .sub_s9 .subway_wrap h2 {
+        font-size: 1.5rem;
+    }
+
+
+    .sub_s9 .subway_wrap h3 {
+        font-size: 1.2rem;
+        line-height: 0;
+        margin-bottom: 30px;
+    }
+
+    .sub_s9 .subway_wrap div h4,
+    .sub_s9 .subway_wrap div span {
+        font-size: 1.1rem;
+    }
+
+
+    .sub_s9 .map_wrap {
+        width: 100%;
+    }
+
+    .sub_s9 .map_wrap img {
+        width: 100%;
+    }
+
+    .sub_s9 .celib_position {
+        justify-content: flex-start;
+    }
+
+    .sub_s9 .subway_wrap {
+        padding: 35px;
+        width: 100%;
+    }
+
+    .sub_s9 .subway_wrap h3:after {
+        display: block;
+        content: '';
+        width: 100%;
+        height: 1px;
+        background: var(--gry);
+        margin-top: 5vh;
+        opacity: 0.6;
+    }
+
+    .sub_s9 .subway,
+    .sub_s9 .bus {
+        display: flex;
+        margin-bottom: 3vh;
+    }
+
+    .sub_s9 .subway h4,
+    .sub_s9 .bus h4 {
+
+        margin: 0 0 0 15px;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+
+    .sub_soonra {
+        background-image: url(/assets/images/sub/soonra/m_s10_img.jpg);
+    }
+
+    .sub_s10 .s10_content {
+        padding: 30px 25px;
+    }
+
+    .sub_s10 .s10_content h2 {
+        font-size: 1.6rem;
+    }
+
+    .sub_s10 .s10_content h3 {
+        font-size: 1.7rem;
+        line-height: 1.2;
+    }
+
+    .sub_s10 .s10_content h4 {
+        font-size: 0.9rem;
+        line-height: 1.3;
+    }
+
+    .sub_s10 .s10_content h5 {
+        font-size: 0.8rem;
+    }
+
+    .sub_s10 .s10_content a {
+        font-size: 1rem;
+        padding: 15px 0;
+    }
+
+    /* 셀립 지점별 투어 신청 끝 */
+
+}
+
+/*@media (max-width: 535px) → 모바일 사이즈 시작*/
+
+@media (max-width:425px) {
+    header .headerCenter .sub {
+        margin-left: 11.5vw;
+    }
+}
+
+/*@media (max-width: 375px) → 모바일 사이즈 시작*/
+@media (max-width:375px) {
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 서브페이지에서만 */
+    header .headerCenter .sub {
+        margin-left: 8.5vw;
+    }
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 끝 */
+
+    /* 셀립 공간구성 갤러리 시작 */
+
+    .mo_gallery_list {
+/*        margin-top: 30px;*/
+    }
+
+    /* 셀립 공간구성 갤러리 끝 */
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 시작 */
+    .drawings_wrap .modal_con .s6_tabcontent_wrap .s6_tabcontent .s6_sm img {
+        /*        width: 10.5vw;*/
+        height: 35px;
+        min-height: auto;
+    }
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    .sub_s1 .sub_txt p{
+        margin: 14px 0 0 0;
+  
+    }
+
+}
+
+/*@media (max-width: 375px) → 모바일 사이즈 끝*/
+
+/*@media (max-width: 320px) → 모바일 사이즈 끝*/
+@media (max-width:320px) {
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 서브페이지에서만 */
+    header .headerCenter .sub {
+        margin-left: 0;
+    }
+
+    /* 헤더 투어신청 메뉴 제거 시작 - 끝 */
+
+
+    /* 셀립 지점별 소개 시작 */
+    .sub_s3 .textWrap p {
+        font-size: 0.9rem;
+    }
+
+    /* 셀립 지점별 소개 끝 */
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 시작 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 시작 */
+
+    .drawings_wrap a.button {
+        height: auto;
+    }
+    .drawings_wrap a div.txt_con h3{
+        font-size: 1.15rem ;
+    }
+
+
+    /* 셀립 편하게 쉴 수 있는 개인룸 모달 팝업 끝 */
+    /* 셀립 편하게 쉴 수 있는 개인룸 끝 */
+
+    /* 셀립용산 간편하고 유연한 계약&입주 시작 */
+    .sub_s8 ul li .s4Para {
+        font-size: 14px;
+    }
+
+    /* 셀립용산 간편하고 유연한 계약&입주 끝 */
+
+    /* 셀립 지도 시작 */
+
+    .sub_s9 .subway_wrap {
+        padding: 20px;
+    }
+
+    .sub_s9 .subway_wrap h2 {
+        font-size: 1.4rem;
+    }
+
+    .sub_s9 .subway_wrap h3 {
+        font-size: 1.1rem;
+        margin-bottom: 20px;
+    }
+
+    .sub_s9 .subway_wrap h3:after {
+        margin-top: 3.2vh;
+    }
+
+    .sub_s9 .subway_wrap div h4,
+    .sub_s9 .subway_wrap div span {
+        font-size: 1rem;
+    }
+
+    /* 셀립 지도 끝 */
+
+    /* 셀립 지점별 투어 신청 시작 */
+
+    .sub_s10 .s10_content h3 {
+        font-size: 1.5rem;
+        line-height: 1.2;
+    }
+
+    /* 셀립 지점별 투어 신청 시작 */
+}
+
+/*@media (max-width: 320px) → 모바일 사이즈 끝*/
+@media (max-width:280px) {
+    .sub_s1 .sub_txt {
+        bottom: -5px;
+    }
+    .sub_s3 .textWrap p {
+        font-size: 0.88rem;
+    }
+    .sub_s4 .textWrap ul li h3 {
+        font-size: 0.8rem;
+    }
+    .sub_s4 .textWrap ul li p {
+        font-size: 0.75rem;
+    }
+    .sub_s7 .textWrap h2 {
+        font-size: 1.1rem;
+    }
+    .sub_s7 .textWrap ul li {
+        font-size: 0.77rem;
+    }
+}

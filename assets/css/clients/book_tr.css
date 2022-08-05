@@ -1,0 +1,388 @@
+.booking {
+	width: 100%;
+	margin-bottom: 70px;
+}
+.booking a:focus {
+	color: inherit;
+}
+.booking > p.title {
+	font-size: 16px;
+	line-height: 28px;
+	text-indent: 30px;
+	color: #000000;
+}
+.booking-wrap { 
+	width: 100%; 
+	height: auto; 
+	display: flex; 
+	border-radius: 7px; 
+	border: 1px solid #cfcfcf;
+}
+.booking-wrap * {
+	box-sizing: border-box;
+}
+.booking-wrap > div {
+	padding: 50px 30px; 
+	flex: 1 0 0;
+}
+.booking-wrap > div + div {
+	border-left: 1px solid #cfcfcf; 
+	flex: 0 0 357px; 
+	padding: 42px 42px 54px;
+}
+
+.booking-wrap .left-area {
+	display: flex; 
+	flex-wrap: wrap; 
+	gap: 35px;
+}
+.booking-wrap dl {
+	width: calc(50% - 17.5px); 
+	margin: 0;
+}
+.booking-wrap .area dt {
+	height: 24px; 
+	margin-bottom: 8px;
+}
+.booking-wrap dt {
+	font-size: 14px;
+	font-weight: 700;
+	line-height: 15px;
+	margin-bottom: 13px;
+	color: #000000;
+}
+.booking-wrap dt.small {
+	font-size: 12px; 
+	line-height: 15px; 
+	/* height: 15px; */
+}
+.booking-wrap dd {
+	margin: 0;
+}
+.booking-wrap input {
+	outline: none; 
+	width: 100%;
+}
+.booking-wrap select {
+	width: calc(50% - 17.5px); 
+	background: #F4F4F4 url(/assets/images/sub/book_tr/apply_arrow-2.png) right 14px center/10px no-repeat; 
+	font-weight: 500;
+	font-size: 12px;
+	line-height: 24px;
+	appearance: none; 
+	outline: none; 
+	cursor: pointer;
+	color: #000000;
+}
+.booking-wrap ul {
+	display: flex; 
+	gap: 8px; 
+	flex-wrap: wrap; 
+	padding: 0;
+}
+.booking-wrap li {
+	flex: 1 1 30%;
+}
+.booking-wrap li.disabled a {
+	background-color: #F6F6F6; 
+	color: #D3D3D3; 
+}
+.booking-wrap li.active a {
+	background-color: #FFDC60; 
+	border-color: #000000; 
+	color: #000000; 
+	font-weight: 700;
+}
+.booking-wrap a {
+	height: 26px; 
+	display: block; 
+	background-color: #e9e9e9; 
+	color: #000000; 
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 26px;
+	border-radius: 4px; 
+	border: 1px solid transparent; 
+	text-align: center;
+}
+.booking-result { 
+	margin-top: 47px;
+}
+.booking-result .title {
+	font-size: 12px;
+	line-height: 24px;
+	text-align: center; 
+	color: #797979;
+}
+.booking-result .dscpt {
+	font-size: 15px;
+	line-height: 22px;
+	text-align: center; 
+	color: #000000; 
+	height: 58px; 
+	margin-bottom: 12px;
+}
+#bookingSubmit {
+	width: 100%; 
+	height: 50px; 
+	background-color: #000000; 
+	color: white; 
+	border-radius: 8px; 
+	font-size: 16px;
+	line-height: 48px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.area{
+	flex: 100% !important; 
+	width: 100% !important;
+}
+.ipt {
+	height: 34px; 
+	line-height: 34px; 
+	background-color: #F4F4F4; 
+	border-radius: 4px; 
+	border: 1px solid #000000; 
+	text-indent: 10px; 
+	line-height: 34px;
+}
+.ipt-wrap {
+	display: flex; 
+	height: auto; 
+	flex-basis: auto;
+}
+.ipt-wrap input {
+	flex: 1;
+}
+.ipt + .ipt {
+	margin-top: 7px;
+}
+/* .celib_tour_booking_header .ctnWrap,
+.celib_tour_booking_footer .ctnWrap,
+.celib_tour_booking .ctnWrap {
+	max-width: 990px;
+} */
+
+.celib_tour_booking .sub_s1 {
+	margin-top: 116px;
+}
+
+
+/* 데이터 피커 */
+.ui-datepicker {
+	width: 100%;
+}
+.ui-datepicker table {
+	margin: 0;
+}
+.ui-datepicker td {
+	width: calc(100% / 7);
+}
+.ui-datepicker td span, .ui-datepicker td a {
+	height: 24px; 
+	line-height: 24px; 
+	padding: 0 .2em; 
+	border-radius: 0;
+}
+
+.ui-datepicker .ui-widget-header .ui-icon {
+	background: url(/assets/images/sub/book_tr/circle-chevron-left-solid.svg);
+}
+.ui-datepicker .ui-datepicker-prev, .ui-datepicker .ui-datepicker-next {
+	height: 90%; 
+	cursor: pointer;
+}
+.ui-datepicker .ui-datepicker-next .ui-icon {
+	background-image: url(/assets/images/sub/book_tr/circle-chevron-right-solid.svg);
+}
+/* 에약 되었습니다 모달창 */
+#modal {
+	position: fixed; 
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0,0,0,.4); 
+	top: 0; 
+	left: 0; 
+	z-index: 100; 
+	display: none;
+}
+.modal-contents {
+	width: 320px; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	padding: 36px 16px 16px;
+	border-radius: 5px; 
+	background-color: white;
+}
+.modal-contents p {
+	font-size: 20px;
+	line-height: 58px;
+	font-weight: 700;
+	text-align: center; 
+	margin: 0 0 26px;
+}
+.modal-contents a {
+	display: block; 
+	width: 100%; 
+	font-size: 13px;
+	line-height: 37px;
+	font-weight: 750;
+	text-align: center; 
+	border: 1px solid #000000; 
+	border-radius: 2px;
+	color: #000000;
+}
+/*  에약 가능한 시간 조회 모달창 */
+.book_loading {
+	position: fixed; 
+	width: 100%; 
+	height: 100%; 
+	background-color: rgba(0,0,0,.4); 
+	top: 0; 
+	left: 0; 
+	z-index: 100; 
+	display: none;
+}
+.book_loading .loading-contents {
+	width: 320px; 
+	position: absolute; 
+	top: 50%; 
+	left: 50%; 
+	transform: translate(-50%, -50%); 
+	padding: 36px 16px 16px;
+	border-radius: 8px; 
+	background-color: white;
+}
+.book_loading .loading-contents img {
+	width: 35px;
+	height: 35px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 5px;
+}
+.book_loading .loading-contents p {
+	font-size: 20px;
+	line-height: 58px;
+	font-weight: 700;
+	text-align: center; 
+	margin: 5px 0;
+}
+.book_loading .loading-contents a {
+	display: block; 
+	width: 100%; 
+	font-size: 13px;
+	line-height: 37px;
+	font-weight: 750;
+	text-align: center; 
+	border: 1px solid #000000; 
+	border-radius: 2px;
+	color: #000000;
+}
+
+@media screen and (max-width:1099px) {
+    .booking-wrap dl{
+		width: 100%;
+	}
+}
+@media screen and (max-width:768px) {
+    .ipt {
+		height: 41px;
+	}
+    .ipt + .ipt {
+		margin-top: 10px;
+	}
+    .booking {
+		display: flex; 
+		flex-direction: column; 
+		align-items: center;
+	}
+    .booking > p.title {
+		width: 340px; 
+		margin: 0; 
+		text-indent: 0; 
+		padding-bottom: 7px; 
+		border-bottom: 1px solid #dfdfdf;
+	}
+    .booking-wrap {
+		width: 340px; 
+		margin: auto; 
+		flex-direction: column; 
+		border: none; 
+		padding: 40px 0 85px;
+	}
+
+    .booking-wrap > div {
+		padding: 0;
+	}
+    /* .booking-wrap div:not(.right-area) dt {
+		margin-bottom: 4px !important;
+	} */
+    .booking-wrap dt.small {
+		font-size: 14px; 
+		line-height: 15px;
+	}
+    .booking-wrap select {
+		width: 100%;
+	}
+    .booking-wrap .left-area {
+		gap: 20px; 
+		padding-bottom: 30px;
+	}
+    .booking-wrap .right-area {
+		padding-top: 10px; 
+		border-top: 1px solid #e8e8e8;
+	}
+    .booking-wrap .right-area dt {
+		font-size: 12px; 
+		height: 30px; 
+		line-height: 30px; 
+		margin-bottom: 6px;
+	}
+    .booking-wrap > div + div {
+		border-width: 1px 0 0 0; 
+		padding: 0; 
+		flex: 1 0 auto;
+	}
+    .booking-wrap ul {
+		margin: 10px 0 0; 
+		gap: 14px;
+	}
+    .booking-wrap li {
+		flex: 0 1 calc(50% - 7px);
+	}
+    .booking-wrap a {
+		height: 42px; 
+		line-height: 42px;
+	}
+
+    .booking-result {
+		margin-top: 42px;
+	}
+    .booking-result .title {
+		margin-bottom: 15px;
+	}
+    .booking-result .dscpt {
+		margin-bottom: 7px;
+	}
+}
+@media screen and (max-width:535px) {
+    .booking > p.title,
+    .booking-wrap {
+		width: 100%;
+	}
+}
+@media screen and (max-width:320px) {
+	.modal-contents,
+	.book_loading .loading-contents{
+		width: 240px;
+	}
+	.modal-contents p,
+	.book_loading .loading-contents p {
+		font-size: 16px;
+	}
+}
+
+

@@ -1,0 +1,323 @@
+@import url(/assets/css/clients/shared/plugins/bootstrap.min.css);
+
+a {
+    text-decoration: none;
+}
+
+.mobile_menu {
+    display: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+header {
+    width: 100vw;
+    height: 75px;
+    background: var(--accnt_clr);
+    background: #ffffff;
+    position: fixed;
+    top: 0;
+    z-index: 22;
+}
+header .ctnWrap:not(.mobile_menu) {
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1180px;
+    justify-content: space-between;
+    box-sizing: border-box;
+}
+header .ctn {
+    width: 100%;
+    height: 75px;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.headerLeft {
+    width: 107px;
+    max-width: 107px;
+}
+
+.headerLeft img {
+    width: 95%;
+}
+
+.headerCenter {
+    /* width: 875px;
+    max-width: 875px; */
+    flex: 1 0 auto;
+}
+
+.headerCenter .menuBar {
+    width: 100%;
+    height: 33px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: flex-end;
+    z-index: 999;
+}
+.headerCenter.sub .menuBar .top_menu > a {
+    padding: 0;
+}
+.headerCenter .menuBar > ul {
+    width: 100%;
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding-right: 40px;
+    box-sizing: border-box;
+    z-index: 999;
+}
+
+.headerCenter .menuBar ul li {
+    text-align: center;
+    font-size: 14px;
+    color: var(--sub_clr);
+    color: #fff;
+    line-height: 0;
+}
+.headerCenter .menuBar .top_menu > a {
+    color: #000000;
+    padding: 0 35px;
+    font-weight: 100;
+    letter-spacing: 0.2px;
+}
+
+.top_menu {
+    position: relative;
+}
+.top_menu ul:last-child li:first-child :after {
+    background: #fff;
+}
+.top_menu ul:last-child {
+    display: none;
+    top: 45px;
+    left: 60px;
+}
+
+.top_menu ul:last-child li {
+    background: #3c3c3c;
+}
+
+.top_menu ul:last-child a {
+    color: #fff;
+}
+.top_menu:hover {
+    transition-duration: 0.5s;
+}
+
+.headerRight {
+    width: 127px;
+    max-width: 127px;
+}
+
+.headerRight .applyBtn {
+    width: 100%;
+    height: 31px;
+}
+
+.headerRight .applyBtn a {
+    font-size: 13px;
+    height: 100%;
+    display: block;
+    line-height: 31px;
+    border: 1px solid #000000;
+    color: #000000;
+    border-radius: 30px;
+}
+
+.headerRight .applyBtn a:hover {
+    background: #000000;
+    color: #ffffff;
+    transition: 0.5s;
+}
+
+
+/*@media (max-width: 1023px)*/
+
+
+@media screen and (min-width:769px) and (max-width:1099px) {
+    header {
+        /* height: 70px;
+        padding-bottom: 15px */
+    }
+    
+
+    header .ctn {
+        width: 100%;
+        /* max-width: 950px; */
+        flex-wrap: nowrap;
+    }
+
+    .headerCenter {
+        width: auto;
+        flex-grow: 2;
+    }
+
+    .headerCenter.sub .menuBar .top_menu > a {
+        padding: 0;
+    } 
+
+    .headerRight .applyBtn a {
+        font-size: 12px;
+    }
+}
+
+/*(min-width:769px) and (max-width:1099px)*/
+
+
+@media all and (max-width:768px) {
+    header {
+        width: 100vw;
+        height: 60px;
+        padding-bottom: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .ctnWrap:not(.mobile_menu) {
+        width: auto;
+        margin: 0;
+        padding: 0;
+    }
+    header .ctn {
+        height: auto;
+        max-width: 680px;
+        flex-wrap: nowrap;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 0;
+    }
+    .headerCenter .menuBar .top_menu > a {
+        font-size: 12px;
+        padding: 0 15px;
+    }
+
+    .headerLeft {
+        width: 100%;
+        margin-left: 18px;
+    }
+    .headerLeft img {
+        width: 80%;
+    }
+    .headerRight {
+        /*        max-width: 230px;*/
+        width: 94px;
+        position: absolute;
+        right: 58px;
+        top: 20px;
+    }
+
+    .headerRight .applyBtn {
+        width: 100%;
+        height: 23px;
+        text-align: right;
+    }
+    .headerRight .applyBtn a {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .pc_menu {
+        display: none;
+    }
+    .mobile_menu {
+        display: flex;
+        flex: 0;
+        align-items: center;
+        margin-right: 3px;
+        padding:0;
+    }
+    .hamburgerBx {
+        /* transition: 0.1s ease-in-out; */
+    }
+    .hamburgerBx span {
+        width: 19px;
+        height: 2px;
+        background: #000000;
+        display: block;
+    }
+    .hamburger {
+        padding: 15px;
+        display: block;
+        cursor: pointer;
+    }
+    .hamburgerBx span + span {
+        margin-top: 4px;
+    }
+
+    .offcanvas {
+        z-index: -1;
+        transition: 0s !important;
+    }
+    .offcanvas-backdrop {
+        z-index: -2;
+        transition: 0s !important;
+    }
+    .offcanvas.offcanvas-top {
+        background: transparent;
+        transform: translateY(0);
+        transition: 0s !important;
+    }
+    .offcanvas.offcanvas-top.show+.ctn .hamburgerBx {
+        transform: rotate(90deg);
+    }
+    .offcanvas.offcanvas-top.show+.ctn .hamburgerBx span {
+        width: 18px;
+    }
+    .offcanvas.offcanvas-top.show+.ctn .hamburgerBx span + span {
+        margin-top: 6px;
+    }
+
+
+    .offcanvas-body {
+        transition: 0s !important;
+        background-color: #fff;
+        padding: 84px 18px 34px;
+        height: auto;
+        flex: 0 0 auto;
+    }
+    .linkDiv {
+        padding: 24px 0 34px;
+    }
+    .mLink {
+        display: flex;
+        width: 100%;
+        height: 41px;
+        position: relative;
+        background: url(/assets/images/common/bg_mobileArrow.svg) right center no-repeat;
+    }
+    .mLink span.text {
+        display: block;
+        z-index: 1;
+        padding-right: 16px;
+        color: #000;
+        font-size: 13px;
+        line-height: 41px;
+        background-color: white;
+    }
+    .mLink span.backLine {
+        display: block;
+        width: calc(100% - 1.5px);
+        height: 1px;
+        background: #D5D5D5;
+        position: absolute;
+        top: calc(50% - 0.5px);
+        left: 0;
+        right: 2px;
+    }
+}
+
+/*(max-width:768px)*/
+
+@media (max-width: 535px) {
+    
+}
